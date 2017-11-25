@@ -17,6 +17,7 @@ github_username:  cilynx
 permalink: /:categories/:year/:month/:day/:title/
 
 disqus: wolfteck
+google_analytics: UA-48547521-1
 
 # Build settings
 markdown: kramdown
