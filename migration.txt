@@ -1,2 +1,0 @@
-Combine threads from http://www.wolfteck.com/projects/candyhouse/cisco/ and http://www.wolfteck.com/projects/candyhouse/packages
-
