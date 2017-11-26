@@ -3,6 +3,8 @@ layout: post
 title:  "3x57xx Bulbs Demystified"
 tags: automotive motorcycle
 ---
+![3157 and 3157AK](/assets/888897e49128041a07ea257e272680b7.jpg)
+
 While the 3157 family of bulbs is pretty ubiquitous these days, it can be difficult to sort out what the differences actually are.  Here’s a quick legend:
 
 |3057 | 32 candlepower at 2 feet |
