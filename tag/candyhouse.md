@@ -2,5 +2,5 @@
 layout: tagpage
 title: "Tag: candyhouse"
 tag: candyhouse
-robots: noindex
+redirect_from: "/projects/candyhouse/"
 ---
