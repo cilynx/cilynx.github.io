@@ -229,6 +229,7 @@ table {
         background-color: lighten($grey-color-light, 3%);
         border: 1px solid darken($grey-color-light, 4%);
         border-bottom-color: darken($grey-color-light, 12%);
+        text-align: center;
     }
     td {
         border: 1px solid $grey-color-light;
