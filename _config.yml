@@ -25,3 +25,5 @@ markdown: kramdown
 plugins:
   - jekyll-redirect-from
 
+
+theme: jekyll-theme-midnight
