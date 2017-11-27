@@ -1,0 +1,34 @@
+---
+layout: default
+permalink: /404.html
+title: Page not found
+---
+<h1>404 - File not found</h1>
+
+<p>The URL you requested isn't here right now.  You may have typed it wrong or I may not have migrated it over yet.  Either way, it isn't here =(</p>
+
+<p>Here's everything we do have...</p>
+
+<div class="home">
+    {% include archive.html %}
+
+    <p>
+    <p>
+
+    <h2>All posts, by date</h2>
+
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
