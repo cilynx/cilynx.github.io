@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building Debian for Candyhouse Routers"
-tags: cisco linksys e4200v2 candyhouse router firmware debian
+tags: cisco linksys e4200v2 candyhouse router firmware debian reverse_engineering
 redirect_from: "/projects/candyhouse/build/"
 ---
 ## Phase 1 - `debootstrap` a USB stick from your PC

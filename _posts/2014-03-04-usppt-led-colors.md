@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "USPpt USB-HID button board - LED colors"
-tags: automotive truckputer
+tags: automotive truckputer reverse_engineering
 redirect_from: "/projects/truckputer/led/"
 ---
 ## Overview

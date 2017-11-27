@@ -2,7 +2,7 @@
 layout: post
 title:  "MC2100 Motor Controller Troubleshooting"
 date:   2017-11-24 17:20:40 -0800
-tags: mc2100 motor controller troubleshooting orac lathe pwm dc power
+tags: mc2100 motor controller troubleshooting orac lathe pwm dc power reverse_engineering
 ---
 <span style="color:red">_Very little of the content on this page is mine.  My additions and comments are in red italics.  So far as I can tell, this is the official interface specification for this family of motor controllers.  You can find the original PDF hundreds of places online with a quick google search, but it never includes copyright or attribution information.  At this point, I'm assuming the below information is in the public domain.  If I am incorrect and you either hold copyright on this content or know who does, please leave a comment below or contact me directly._</span>
 

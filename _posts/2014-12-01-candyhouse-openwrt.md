@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenWRT for Candyhouse Routers"
-tags: cisco linksys e4200v2 candyhouse router firmware openwrt
+tags: cisco linksys e4200v2 candyhouse router firmware openwrt reverse_engineering
 redirect_from: "/projects/candyhouse/openwrt/"
 ---
 ## This project is deprecated

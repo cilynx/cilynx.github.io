@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Making the Cisco/Linksys E4200v2 work for you"
-tags: cisco linksys e4200v2 candyhouse router firmware
+tags: cisco linksys e4200v2 candyhouse router firmware reverse_engineering
 ---
 
 About a month ago, I ordered a [Cisco E4200](http://amzn.to/2A5tUN0) from an Amazon vendor who promised me it was a v1 and would run open-source firmware ([dd-wrt](http://dd-wrt.com), [openwrt](http://openwrt.org/), [tomato](http://tomatousb.org/), etc).  This was a big deal because I purchased this router specifically to replace my [Airport Extreme](http://amzn.to/2A4FRm3) because the Airport Extreme is an amazingly closed product and doesn't let me jigger with things the way I want to.  Well, lo-and-behold, my E4200 arrives and is in a sealed V1 / N750 box, but the actual device is a V2 / N900.  Bad for me, but good for you.
