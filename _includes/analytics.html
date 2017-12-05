@@ -7,9 +7,10 @@
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+                alert(window.location.href);
 		ga('create', '{{ site.google_analytics }}', 'auto');
 		ga('send', 'pageview', {
-		  'page': '{{ site.baseurl }}{{ page.url }}',
+		  'page': window.location.href,
 		  'title': '{{ page.title | replace: "'", "\\'" }}'
 		});
 	</script>
