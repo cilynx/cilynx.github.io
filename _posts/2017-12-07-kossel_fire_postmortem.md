@@ -2,7 +2,7 @@
 layout: post
 title:  Kossel Fire Postmortem
 date:   2017-12-07 09:10:17 -0800
-tags:   kossel 3d_printing reverse_engineering smoothie octoprint
+tags:   kossel 3d_printing reverse_engineering smoothie octoprint safety
 ---
 ## Introductory Asides
 
