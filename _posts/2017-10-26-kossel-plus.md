@@ -2,7 +2,7 @@
 layout: post
 title:  "BIQU Kossel Plus"
 tags: kossel 3d_printing cnc smoothie
-last_modified_at: 2017-12-5
+last_modified_at: 2017-12-16
 ---
 ## Overview
 
@@ -14,7 +14,7 @@ My first real complaint is that the BigTree [Marlin](http://marlinfw.org/) board
 
 My next big complaint is that there's no place to put the power supply and there's wiring hanging out all over the place. The cable wrap kinda works, but having the whole umbilical cord falling off to the side instead of up out the top leads to botched prints and melted wires. Ask me how I know. 
 
-## Hardware Mods
+## Modifications
 * Replaced the BigTree RAMPS board with a [Smoothieboard clone](http://amzn.to/2kp69d8) I hadn't gotten around to sticking in the [ORAC](/orac).  
 
 <p style="background:pink; border:1px solid silver; padding:5px">Please <a href="http://smoothieware.org/donate">support the Smoothieware project</a> if you find it useful.  This is how open source developers can afford to spend time on the projects we love.  Personally, I donate $20/month to the Smoothieware  project via PayPal.</p>
@@ -41,11 +41,13 @@ My next big complaint is that there's no place to put the power supply and there
 
 ![Base guts](/assets/IMG_4376.JPG)
 
-* Designed an [enclosure](https://www.thingiverse.com/thing:2589438) for a [Raspberry Pi](http://amzn.to/2koq5N9) and [official 7" touchscreen](http://amzn.to/2BD1urp) running [OctoPi](https://octopi.octoprint.org/).  I also added a [relay](http://amzn.to/2ko29cB) so I can turn the main power supply on and off programmatically.  This is very nicely supported by [OctoPrint](http://octoprint.org/)'s [PSU Control](http://plugins.octoprint.org/plugins/psucontrol/) plugin.  
+* Designed an [enclosure](https://www.thingiverse.com/thing:2589438) for a [Raspberry Pi](http://amzn.to/2koq5N9) and [official 7" touchscreen](http://amzn.to/2BD1urp) running [OctoPi](https://octopi.octoprint.org/) for convenient on-machine and remote control.  I also added a [relay](http://amzn.to/2ko29cB) so I can turn the main power supply on and off programmatically.  This is very nicely supported by [OctoPrint](http://octoprint.org/)'s [PSU Control](http://plugins.octoprint.org/plugins/psucontrol/) plugin.  
 
 <p style="background:pink; border:1px solid silver; padding:5px">Please <a href="http://octoprint.org/support-octoprint/">support the OctoPrint project</a> if you find it useful.  This is how open source developers can afford to spend time on the projects we love.  Personally, I donate $20/month to the OctoPrint project via Patreon.</p>
 
 ![Pi guts](/assets/IMG_4380.JPG)
+![Screen closeup](/assets/IMG_4513.JPG)
+![Body shot](/assets/IMG_4514.JPG)
 
 * Upgraded the fan rig to an [e3d All-in-One fan mount](https://www.thingiverse.com/thing:1667012) with two more [Noctua 40mm Fans](http://amzn.to/2kprV0e).  The center fan is wired straight to 12V on the supply, so if the machine is on, the heat sink is being cooled.  The side fans are driven by the Smoothieboard via M-codes send from the slicer.
 
