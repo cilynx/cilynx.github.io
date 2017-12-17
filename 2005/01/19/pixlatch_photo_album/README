@@ -1,0 +1,33 @@
+Pixlatch v0.02
+README
+http://www.wolfteck.com/pixlatch/
+Pixlatch is Copyright (C) 2005 Randy Will and released under the GNU 
+General Public License.  To view the GNU GPL, please see 'gpl.txt' 
+inlcuded with the source, or visit: http://www.gnu.org/licenses/gpl.txt
+
+====
+
+Features:
+
+Pixlatch is a very simple photo gallery generator.  
+Pixlatch works on a heirarchy that looks like this:
+
+rcw@blessed:~/public_html/pixlatch$ ls
+pics1  pics2  pixlatch.pl  template.html
+
+You just run it in the root directory and it parses out the images in 
+the secondary directories.
+
+====
+
+Limitations:
+
+Only reads in jpg
+Only one level of recursion
+
+====
+
+Any questions or comments, refer to the web site or write me at:
+rcw at wolfteck dot com
+
+Please include "Pixlatch" in the subject line.

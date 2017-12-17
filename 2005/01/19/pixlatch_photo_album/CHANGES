@@ -1,0 +1,12 @@
+Pixlatch v0.2
+Copyright (c) 2005 by Randy C. Will
+CHANGES
+http://www.wolfteck.com/pixlatch/
+-----
+
+Version 0.2
+2004.01.19
+-----
+* Added VERY basic template support
+* Added single level hierarchy support
+* Fixed case sensitivity and "broken .JPG" bug
