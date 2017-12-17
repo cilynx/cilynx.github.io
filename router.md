@@ -1,6 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: router"
+title: "router"
 tag: router
-robots: noindex
 ---

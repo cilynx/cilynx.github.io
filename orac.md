@@ -1,6 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: orac"
+title: "orac"
 tag: orac
-robots: noindex
 ---

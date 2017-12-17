@@ -1,6 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: motor"
+title: "motor"
 tag: motor
-robots: noindex
 ---

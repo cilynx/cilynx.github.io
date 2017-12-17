@@ -1,6 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: interface"
+title: "interface"
 tag: interface
-robots: noindex
 ---

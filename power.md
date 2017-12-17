@@ -1,6 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: power"
+title: "power"
 tag: power
-robots: noindex
 ---

@@ -1,6 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: linksys"
+title: "linksys"
 tag: linksys
-robots: noindex
 ---

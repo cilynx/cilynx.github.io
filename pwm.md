@@ -1,6 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: pwm"
+title: "pwm"
 tag: pwm
-robots: noindex
 ---

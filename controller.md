@@ -1,6 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: controller"
+title: "controller"
 tag: controller
-robots: noindex
 ---

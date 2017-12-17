@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: motorcycle"
+title: "motorcycle"
 tag: motorcycle 
 ---

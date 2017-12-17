@@ -1,6 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: dc"
+title: "dc"
 tag: dc
-robots: noindex
 ---

@@ -1,6 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: troubleshooting"
+title: "troubleshooting"
 tag: troubleshooting
-robots: noindex
 ---

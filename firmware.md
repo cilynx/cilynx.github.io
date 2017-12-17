@@ -1,6 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: firmware"
+title: "firmware"
 tag: firmware
-robots: noindex
 ---

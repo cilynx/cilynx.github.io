@@ -1,6 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: cisco"
+title: "Cisco"
 tag: cisco
-robots: noindex
 ---

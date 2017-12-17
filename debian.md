@@ -1,6 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: debian"
+title: "Debian"
 tag: debian
-robots: noindex
 ---

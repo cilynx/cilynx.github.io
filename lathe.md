@@ -1,6 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: lathe"
+title: "lathe"
 tag: lathe
-robots: noindex
 ---

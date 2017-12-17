@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: automotive"
+title: "automotive"
 tag: automotive
 ---
