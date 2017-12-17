@@ -2,6 +2,7 @@ read -p "Title: " TITLE
 read -p "Tags: " TAGS
 
 TITLE_STRIPPED=${TITLE// /_}
+TITLE_STRIPPED=${TITLE_STRIPPED//\//_}
 
 PERMALINK=$(tr A-Z a-z <<< $TITLE_STRIPPED)
 
