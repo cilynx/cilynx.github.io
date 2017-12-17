@@ -1,14 +1,18 @@
 read -p "Title: " TITLE
 read -p "Tags: " TAGS
+read -p "Date: " DATE
 
 TITLE_STRIPPED=${TITLE// /_}
 TITLE_STRIPPED=${TITLE_STRIPPED//\//_}
 
 PERMALINK=$(tr A-Z a-z <<< $TITLE_STRIPPED)
 
-DATE=`date +%F\ %T\ %z`
-
-SHORT_DATE=`date +%F`
+if [ -z "$DATE" ] ; then
+   DATE=`date +%F\ %T\ %z`
+   SHORT_DATE=`date +%F`
+else
+   SHORT_DATE=${DATE}
+fi
 
 TYPE='.md'
 
