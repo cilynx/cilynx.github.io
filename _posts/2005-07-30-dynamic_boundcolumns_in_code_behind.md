@@ -3,6 +3,7 @@ layout: post
 title:  Dynamic BoundColumns in Code Behind
 date:   2005-07-30 19:28:54
 tags:   c_sharp dotnet
+redirect_from: "/csharp.net/"
 ---
 I've been dragged into .NET programming kicking and screaming. Since you're on this page, I'll assume that you're in the same boat. Welcome to the Good Ship Lollipop.
 
