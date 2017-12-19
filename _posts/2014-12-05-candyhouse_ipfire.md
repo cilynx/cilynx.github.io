@@ -4,6 +4,7 @@ title:  Candyhouse IPFire
 date:   2014-12-05
 tags:   cisco linksys e4200v2 candyhouse router firmware reverse_engineering ipfire
 last_modified_at: 2015-03-29
+redirect_from: "/projects/candyhouse/ipfire/"
 ---
 [IPFire](http://www.ipfire.org/) is a hardened Linux appliance distribution designed for use as a firewall. This build is based on the pre-existing [ARM/Kirkwood port](http://wiki.ipfire.org/en/hardware/arm/kirkwood).
 
