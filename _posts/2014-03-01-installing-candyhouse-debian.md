@@ -3,7 +3,9 @@ layout: post
 title:  "Installing Debian on Candyhouse Routers"
 tags: cisco linksys e4200v2 candyhouse router firmware debian reverse_engineering
 last_modified_at: 2014-08-01
-redirect_from: "/projects/candyhouse/install/"
+redirect_from:
+    - "/projects/candyhouse/install/"
+    - "/projects/candyhouse/i/"
 ---
 > All sources are available [on Github](https://github.com/cilynx/Candyhouse-Linux).
 
