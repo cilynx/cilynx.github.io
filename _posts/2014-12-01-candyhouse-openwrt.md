@@ -13,4 +13,4 @@ redirect_from:
 ---
 ## This project is deprecated
 
-Thanks to [Claudio Leite](https://github.com/leitec), Candyhouse routers (Linksys E4200v2 / EA4500) have been [natively supported](https://wiki.openwrt.org/toh/linksys/ea4500) in OpenWRT since [r47458](https://dev.openwrt.org/changeset/47458).  My [Candyhouse-Linux](https://github.com/cilynx/Candyhouse-Linux) repo has been archived and is only available now read-only for posterity.  No one should use it for anything in real life.
+Thanks to [Claudio Leite](https://github.com/leitec), Candyhouse routers (Linksys [E4200v2](http://amzn.to/2DqfpCP) / [EA4500](http://amzn.to/2DkGGX3)) have been [natively supported](https://wiki.openwrt.org/toh/linksys/ea4500) in OpenWRT since [r47458](https://dev.openwrt.org/changeset/47458).  My [Candyhouse-Linux](https://github.com/cilynx/Candyhouse-Linux) repo has been archived and is only available now read-only for posterity.  No one should use it for anything in real life.
