@@ -10,6 +10,7 @@ redirect_from:
     - "/projects/candyhouse/openwrt/openwrt-kirkwood-ea3500-alt.ssa"
     - "/projects/candyhouse/openwrt/openwrt-kirkwood-ea4500-squashfs-factory.bin"
     - "/projects/candyhouse/openwrt/openwrt-kirkwood-ea3500-squashfs-factory.bin"
+    - "/projects/candyhouse/openwrt/13openwrt-kirkwood-ea3500-squashfs-factory.bin"
 ---
 ## This project is deprecated
 
