@@ -65,4 +65,18 @@ Morning weight: 261
 
 7:30
 
-Feeling very cold today.  Some wind yesterday evening brought in some cold air and the house is cooler than it's been the last couple days, but normally I like it a bit cooler.  It's currently 66F in the house and my fingers and toes are cold with the very beginning signs of numbness.  I'm glad I did a lot of reading before starting this fast and know what to expect.  Feeling cold is pretty common and a good sign that blood pressure is lowering.
+Feeling very cold today.  Some wind yesterday evening brought in some cold air and the house is cooler than it's been the last couple days, but normally I like it a bit cooler.  It's currently 66F in the house and my fingers and toes are cold with the very beginning signs of numbness.  I'm glad I did a lot of reading before starting this fast and know what to expect.  Feeling cold is pretty common and a good sign that blood pressure is lowering.  I'm going to take a warm bath then find some warm comfy clothes.
+
+10:00
+
+Feeling much better after a long warm bath.  Confirmed with my housemates who are not fasting that it actually is cold in here.  Made and drank some loose leaf mango tea that's been sitting on the shelf forever.  It was nice to have some flavor and drinking the tea hot was a nice change as well.  I'm not sure how much longer I'm going to continue without food.  Boredom is what it is.  I'm much more interested in the food science side of getting back into eating than the nothingness of not eating.  If I could lay around in a bed or "communing with nature" at some fasting center for the next couple weeks, that would be one thing, but I need to stay functional in day-to-day life...and tomorrow is Monday.
+
+Need to brush my teeth.  This sticky coating is gross.
+
+11:00
+
+I'm breaking the fast now for a few reasons.  First, I should have been more careful with my hydration level to avoid the very bad second night.  I don't want to push myself beyond my limits and I feel that I need to get back on an even kiel and start again later.  Second, warming into this whole fasting thing, I need my "unknown" days to be on weekends.  Tomorrow is Monday and that's not a good day to not know if I'm going to feel amazing or terrible.
+
+This time around, I fasted from Thursday night ~22:00 to Sunday morning ~10:00.  That's 2.5 days or 60 hours.  Next time around, I'll start on a Wednesday night with the intention of again breaking the fast on Sunday morning to not be fasting on Monday.  If this is something that seems to be benificial for me in the long run, I'll continue pushing the start day back one day at a time until I reach whatever duration seems to be best.
+
+For the moment, I roasted up twelve brussels sprouts with a light mist of olive oil and ate two.  I'm currently sipping on some more of the same tea from this morning.
