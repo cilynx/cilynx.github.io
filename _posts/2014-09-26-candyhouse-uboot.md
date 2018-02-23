@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Candyhouse U-Boot"
-tags: cisco linksys e4200v2 candyhouse router uboot firmware reverse_engineering
+tags: cisco linksys e4200v2 candyhouse router uboot firmware reverse_engineering linux wifi
 redirect_from: "/projects/candyhouse/uboot/"
 ---
 ## Install the Tools

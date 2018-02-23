@@ -2,7 +2,7 @@
 layout: post
 title:  Candyhouse IPFire
 date:   2014-12-05
-tags:   cisco linksys e4200v2 candyhouse router firmware reverse_engineering ipfire
+tags:   cisco linksys e4200v2 candyhouse router firmware reverse_engineering ipfire linux wifi
 last_modified_at: 2015-03-29
 redirect_from: "/projects/candyhouse/ipfire/"
 ---

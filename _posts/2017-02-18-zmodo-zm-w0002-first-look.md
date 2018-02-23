@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Zmodo zm-w0002 First Look"
-tags: zmodo zm-w0002 hi3518 firmware reverse_engineering 
+tags: zmodo zm-w0002 hi3518 firmware reverse_engineering linux wifi
 ---
 # Table of Contents
 

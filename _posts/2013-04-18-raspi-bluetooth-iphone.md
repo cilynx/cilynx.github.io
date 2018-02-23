@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Raspberry Pi Bluetooth iPhone Tethering"
-tags: raspberry_pi bluetooth iphone
+tags: raspberry_pi bluetooth iphone linux
 redirect_from: "/projects/raspi/iphone/"
 ---
 For the [truckputer project](/truckputer/), I want to pair with my iPhone for various things from file transfer to hand-free calling to Internet access. Towards that end, I picked up a [Cirago Bluetooth / WiFi USB mini adapter (BTA7300)](http://amzn.to/2zsiuzT) since it was cheap and reviews showed it Just Works with Linux. Happily, it did not disappoint.

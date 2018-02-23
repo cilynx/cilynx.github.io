@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Candyhouse Backdoor Packages"
-tags: cisco linksys e4200v2 candyhouse router firmware reverse_engineering binwalk mtd dropbear
+tags: cisco linksys e4200v2 candyhouse router firmware reverse_engineering binwalk mtd dropbear linux wifi
 redirect_from:
     - "/projects/candyhouse/packages/"
     - "/projects/candyhouse/cisco/"

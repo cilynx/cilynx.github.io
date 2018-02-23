@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Candyhouse Serial Console"
-tags: cisco linksys e4200v2 candyhouse router firmware debian serial reverse_engineering
+tags: cisco linksys e4200v2 candyhouse router firmware debian serial reverse_engineering linux wifi
 redirect_from: "/projects/candyhouse/serial/"
 ---
 ![Serial Session](/assets/c68073cccc81a0127f1c80a5a6bccc5e.png)

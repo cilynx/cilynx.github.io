@@ -2,7 +2,7 @@
 layout:         post
 title:          Breezy P4 Clockmod Bug
 date:           2005-12-09
-tags:           ubuntu kernel
+tags:           ubuntu kernel linux
 redirect_from:  "/clockmod/"
 ---
 There is a bug in the Intel specification of some of their CPUs that is known as the N60 Errata. Because of this bug, some Intel CPUs hang when running below 2GHz under Linux. The Ubuntu developers patched the kernel to check for the N60 Errata and if it finds it, it doesn't let you clock down your CPU below 2GHz.

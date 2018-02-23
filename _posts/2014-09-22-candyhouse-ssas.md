@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building Candyhouse SSAs"
-tags: cisco linksys e4200v2 candyhouse router firmware reverse_engineering perl binwalk
+tags: cisco linksys e4200v2 candyhouse router firmware reverse_engineering perl binwalk linux wifi
 redirect_from: 
     - "/projects/candyhouse/ssa/"
     - "/projects/candyhouse/firmware/"

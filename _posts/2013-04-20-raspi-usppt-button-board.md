@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Raspberry Pi with USPpt USB-HID button board"
-tags: raspberry_pi automotive truckputer reverse_engineering
+tags: raspberry_pi automotive truckputer reverse_engineering linux
 last_modified_at: 2014-03-01
 redirect_from:
     - "/projects/raspi/usppt/"

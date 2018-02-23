@@ -2,7 +2,7 @@
 layout:         post
 title:          Building Raspbian Kernel Packages
 date:           2015-02-19
-tags:           raspberry_pi kernel debian
+tags:           raspberry_pi kernel debian linux
 redirect_from:  "/projects/raspi/kernel/"
 ---
 Grab the kernel source:
