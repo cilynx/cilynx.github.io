@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "BIQU Kossel Plus"
-tags: kossel 3d_printing cnc smoothie
+tags: kossel 3d_printing cnc smoothie thingiverse
 last_modified_at: 2017-12-16
 ---
 ## Overview
