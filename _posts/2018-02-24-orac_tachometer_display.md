@@ -2,7 +2,7 @@
 layout: post
 title:  ORAC Tachometer Display
 date:   2018-02-24 12:17:57 -0800
-tags:   orac cnc motor controller lathe pwm interface 3d_printing openscad smoothie thingiverse
+tags:   orac cnc motor controller lathe pwm interface 3d_printing openscad thingiverse
 ---
 ![ORAC Before](/assets/IMG_4752.JPG)
 Even though (or maybe "especially since") the spindle speed is computer controlled, I've found that one of the most valuable pieces of information is the RPM readout on an [old school 7-segment display](http://amzn.to/2ENZB14).  I've been going back and forth with myself around where I want to put the tach display.  Originally, I was planning on mounting it low on one of the doors I'm printing to replace the original faceplate.  I still like that idea to some extent, but thinking more about it, I'm probably going to put a touchscreen down there at some point, which will have RPM readout among other things.  
