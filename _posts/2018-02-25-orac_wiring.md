@@ -2,7 +2,7 @@
 layout: post
 title:  ORAC Wiring
 date:   2018-02-25 12:51:45 -0800
-tags:   orac cnc motor reverse_engineering smoothie
+tags:   orac cnc motor reverse_engineering smoothie lathe
 ---
 # The Machine End
 The main wiring harness has 12 lines.  Looking at the end of the harness that's attached to the steppers and such, the connector is laid out like so:
