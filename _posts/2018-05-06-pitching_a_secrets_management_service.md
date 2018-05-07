@@ -4,7 +4,7 @@ title:  Pitching a Secrets Management Service
 date:   2018-05-06 08:44:23 -0700
 tags:   
 ---
-*I was recently asked how to pitch an internal secrets management service to a company that doesn't have one.  As this was an unpaid request, I am providing the fruit of my efforts here in the hope that my fellow travelers find it useful.  That said, I provide no guarantee or warranty as to the accuracy or usefulness of the information contained herein for any purpose.*
+*I was recently asked how to pitch an internal secrets management service to a company that doesn't have one.  I am providing the fruit of my efforts here in the hope that my fellow travelers find it useful.  That said, I provide no guarantee or warranty as to the accuracy or usefulness of the information contained herein for any purpose.*
 
 ## The Problem
 
