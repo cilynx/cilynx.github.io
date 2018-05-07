@@ -45,7 +45,7 @@ One good approach is to follow the platform services model.  AWS and all of the 
 To use the example of our [Secrets Management Service]({% post_url 2018-05-06-pitching_a_secrets_management_service %}), without the service, developers have to find a way to deal with secrets within their applications.  This means thinking about encryption and storage, lifecycles, attack vectors, business continuity, audit validation, and everything else that comes along with directly handling sensitive data.  With a managed service available, they just write that portion of their application to the API and leave all of the running around to the specialists.
 
 Enablement is generally pretty straightforward to sell internally, but here are some bullets to get you started:
-* What services does the security team offer that can make development more straightforward and efficient?
+* What services do the security team offer that can make development more straightforward and efficient?
 * Which internal programs have already adopted internal security services and what impact are they seeing on moral and productivity?
 * How does the security team receive and act on feedback around new and existing services?
 
