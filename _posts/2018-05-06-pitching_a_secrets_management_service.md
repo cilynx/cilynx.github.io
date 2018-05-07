@@ -67,11 +67,11 @@ A non-exhaustive list of open source Secrets Management Services:
 <td>Proof of Value</td>
 <td><ul><li>Limited deployment and integration of each potential solution, modeling as much of production workload as possible</li><li>Scored requirements documents for each tested solution</li><li>A decision of which solution to move forward with</li></ul></td>
 </tr><tr>
-<td>Initial Production</td><td><ul><li>Development of any missing pieces (or the whole thing) to meet the requirements defined above</li><li>Deployment and integration with one production system</li><li>Feedback from the initial customer</li><li>Self-audit by the Security Team to ensure all requirements are met in production</li><li>Initial evangelical collateral</li></ul></td>
+<td>Initial Production</td><td><ul><li>Development of any missing pieces (or the whole thing) to meet the requirements defined above</li><li>Deployment and integration with one production system</li><li>Feedback from the initial consumer</li><li>Self-audit by the Security Team to ensure all requirements are met in production</li><li>Initial evangelical collateral</li></ul></td>
 </tr><tr>
 <td>Iteration</td><td><ul><li>Serial (or at least not massively parallel) deployment and integration with remaining production programs</li><li>Continued feedback from all live consumers</li></ul></td>
 </tr><tr>
-<td>Codification / Evangelism</td><td><ul><li>Training, policy, enforcement, and audit mechanisms to ensure all future engineering stores secrets in the Secret Management Service unless there is a deliberate and documented business reason not to</li><li>Continuous feedback review from all customers to ensure the service is providing continued value and not being used only because policy says so</li></ul></td>
+<td>Codification / Evangelism</td><td><ul><li>Training, policy, enforcement, and audit mechanisms to ensure all future engineering stores secrets in the Secret Management Service unless there is a deliberate and documented business reason not to</li><li>Continuous feedback review from all consumers to ensure the service is providing continued value and not being used only because policy says so</li></ul></td>
 </tr>
 </tbody>
 </table>
@@ -81,16 +81,24 @@ A non-exhaustive list of open source Secrets Management Services:
 I break project success down into three categories:
 
 <table>
+<thead>
+<th>Criteria</th>
+<th>Details</th>
+<th>The Path</th>
+</thead>
 <tbody>
 <tr>
 <td>Voluntary Adoption</td>
-<td><ul><li>In the <em>Iteration</em> phase, future customers are asking how soon they can onboard</li><li>Existing consumers are providing feedback and suggestions</li><li>No one is "working the system" to avoid using the service</li><li>Very few consumers are using the service only because it is policy to do so</li></ul></td>
+<td><ul><li>In the Iteration phase, future consumers are asking how soon they can onboard</li><li>Existing consumers are providing feedback and suggestions</li><li>No one is "working the system" to avoid using the service</li><li>Very few consumers are using the service only because it is policy to do so</li></ul></td>
+<td><ul><li>Displaying immediate value by solving problems future consumers have today</li><li>Providing unobtrusive, quick feedback mechanisms</li><li>Avoiding sacrificing one use-case to serve another</li><li>Positioning the service as an efficiency aid first and security improvement second</li></ul></td>
 </tr><tr>
 <td>Makes Things Better</td>
-<td><ul><li>Secrets are stored more securely such that the attack surface is reduced</li><li>Secrets are easier to manage, so engineers develop simpler, more secure, and more maintainable applications in less time</li></ul></td>
+<td><ul><li>Secrets are stored more securely than before</li><li>Secrets are easier to manage, so engineers develop simpler, more secure, and more maintainable applications in less time</li></ul></td>
+<td><ul><li>Encryption at rest and in flight, RBAC, audit trail, etc.</li><li>Logical, standards compliant, easy-to-use API</li></ul></td>
 </tr><tr>
 <td>Doesn't Make Things Worse</td>
 <td><ul><li>Minimizes new attack surfaces</li><li>Minimizes operational overhead</li><li>Does not cause confusion or frustration with developers or users</li></ul></td>
+<td><ul><li>RBAC, least privilege, well-defined arena where secrets live and where they do not</li><li>Logical, modern deployment and upgrade framework -- containerization, red/blue, etc. depending on existing processes</li><li>Logical, standards compliant, easy-to-use API and purposely designed and A/B tested UX</li></ul></td>
 </tr>
 </tbody>
 </table>
@@ -114,7 +122,7 @@ I break project success down into three categories:
 </tr><tr>
 <td>Initial Production</td><td><ul><li><em>This phase requires time commitment from the Security Team, the initial consumers, and potentially procurement to secure any outside software that will be used.  This phase is the inflection point where concepts become reality, so all resources directly engaged in delivery should have little else on their dockets.  This phase is also where software costs become a reality if a commercial solution is chosen as the base.</em></li></ul></td>
 </tr><tr>
-<td>Iteration</td><td><ul><li><em>This phase requires time commitment from the Security Team, the onboarding consumers, and the existing consumers (as consultants to the new).  Onboarding should be more efficient than the previous phase and become even more efficient with each additional customer onboarded.  If basing on a commercial SaaS, software costs will increase as customers are added.</em></li></ul></td>
+<td>Iteration</td><td><ul><li><em>This phase requires time commitment from the Security Team, the onboarding consumers, and the existing consumers (as consultants to the new).  Onboarding should be more efficient than the previous phase and become even more efficient with each additional consumer onboarded.  If basing on a commercial SaaS, software costs will increase as consumers are added.</em></li></ul></td>
 </tr><tr>
 <td>Codification / Evangelism</td><td><ul><li><em>This phase requires time commitment from the Security Team, Compliance, Training, and Tech Writing as this is where the point-in-time state is transformed into business as usual.  As this phase involves more integration with existing process and procedure than project-specific work, I would expect the resources working in the phase to be multi-tasking more than those in other phases.</em></li></ul></td>
 </tr>
