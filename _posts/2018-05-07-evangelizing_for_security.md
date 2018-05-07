@@ -56,5 +56,5 @@ As with compliance, to appeal to a varied audience, these questions should be an
 
 * [What is API Documentation, and Why it Matters](https://swaggerhub.com/blog/api-documentation/what-is-api-documentation-and-why-it-matters/)
 * [PCI Security Standards Council](https://www.pcisecuritystandards.org/pci_security/)
-* [HIPAA for Professionals](https://www.pcisecuritystandards.org/pci_security/)
+* [HIPAA for Professionals](https://www.hhs.gov/hipaa/for-professionals/)
 * [ISO/IEC 27000 - Information Security Management Systems](https://www.iso.org/isoiec-27001-information-security.html)
