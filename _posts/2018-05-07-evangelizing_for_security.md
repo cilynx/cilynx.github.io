@@ -4,11 +4,11 @@ title:  Evangelizing for Security
 date:   2018-05-07 07:31:56 -0700
 tags:   
 ---
-*In an similar vein to [Pitching a Secrets Management Service]({% post_url 2018-05-06-pitching_a_secrets_management_service %}), I was recently asked how to evangelize security within an engineering organization.  This is a very deep topic and I'll only be providing a high-level overview in the post.  Still, I hope it proves useful.  As before, I provide no guarantee or warranty as to the accuracy or usefulness of the information contained herein for any purpose.*
+*In an similar vein to [Pitching a Secrets Management Service]({% post_url 2018-05-06-pitching_a_secrets_management_service %}), I was recently asked how to evangelize security within an engineering organization.  This is a very deep topic and I'll only be providing a high-level overview in this post.  Still, I hope it proves useful.  As before, I provide no guarantee or warranty as to the accuracy or usefulness of the information contained herein for any purpose.*
 
 ## The Problem
 
-Security has been an "accepted" part of product engineering for some time;   however, it is often seen as a gateway or hurdle -- something developers and product managers deal with begrudgingly like paying taxes.  This mindset often leads to engineers and product owners doing the bare minimum requirements or even looking for loopholes in order to maintain their application performance, availability, delivery timeline, etc.
+Security has been an accepted part of product engineering for some time;   however, it is often seen as a gateway or hurdle -- something developers and product managers deal with begrudgingly like paying taxes.  This mindset often leads to engineers and product owners doing the bare minimum requirements or even looking for loopholes in order to maintain their application performance, availability, delivery timeline, etc.
 
 ## Making Things Better
 
@@ -33,6 +33,7 @@ To sell compliance internally, you need to educate your organization around a fe
 * Which standards are you as a company already in-line with and which are works-in-progress?
 * What actually needs to be done to effect compliance?
 * How does compliance validation help position your company as compared to your competitors?
+* What value does your compliance bring to your customers?
 
 In order to reach all of the stakeholders and participants, I believe that these questions need to be answered both in writing (CBT, intranet, etc) and verbally (30-60 minute talk at a company all-hands by the company's compliance lead with support from business and engineering leadership).
 
