@@ -47,7 +47,7 @@ To use the example of our [Secrets Management Service]({% post_url 2018-05-06-pi
 
 Enablement is generally pretty straightforward to sell internally, but here are some bullets to get you started:
 * What services do the security team offer that can make development more straightforward and efficient?
-* Which internal programs have already adopted internal security services and what impact are they seeing on moral and productivity?
+* Which internal programs have already adopted internal security services and what impact are they seeing on morale and productivity?
 * How does the security team receive and act on feedback around new and existing services?
 
 As with compliance, to appeal to a varied audience, these questions should be answered both in writing and interactively.  The written portion should be a service catalog with well-documented APIs including example usage.  The verbal portion should be a 30-60 minute talk by someone high-level in the security team with knowledge of all of the services.  A "guest speaker" from one of the engineering teams that has already found value can really help to resonate your message with other teams.
