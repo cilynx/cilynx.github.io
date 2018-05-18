@@ -2,7 +2,7 @@
 layout: post
 title:  Mini Hifi Bakeoff
 date:   2018-01-27 10:24:42 -0700
-tags:   lepai hifi reverse_engineering
+tags:   tripath hifi reverse_engineering lepai lepy lvpin pyle
 last_modified_at: 2018-05-18
 ---
 
@@ -102,7 +102,7 @@ While not quite as pleasing to the ear as the <a href="#Kinter K2020A+">Kinter K
 <tr><th>Left Channel</th><td>Top White Jack</td></tr>
 <tr><th>Input Power Label</th><td>DC12V3A</td></tr>
 <tr><th>Included Power Supply</th><td>TH201505 12V/3A</td></tr>
-<tr><th>Comments</th><td>Parts-Express <a href="https://youtu.be/haBAMl22x88">claims</a> this one is the "one true successor" to the original <a href="#Lepai 2020A+">Lepai 2020A+</a>. They claim that they designed this amp around the <a href="/assets/TPA3118D2.pdf">Texas Instruments TPA3118</a> because the <a href="/assets/Tripath TA2020-020.pdf">Tripath TA2020</a> has become hard for them to source. Further, they claim the new 2020TI sounds "cleaner" and is more powerful than the original <a href="#Lepai 2020A+">2020A+</a> with the 2020TI putting out 14W@1%THD as compared to 7W@1%THD for the 2020A+ when running on the same 12V@3A (36W) power supply.
+<tr><th>Comments</th><td>Parts-Express <a href="https://youtu.be/haBAMl22x88">claims</a> this one is the "one true successor" to the original <a href="#Lepai LP-2020A+">Lepai LP-2020A+</a>. They claim that they designed this amp around the <a href="/assets/TPA3118D2.pdf">Texas Instruments TPA3118</a> because the <a href="/assets/Tripath TA2020-020.pdf">Tripath TA2020</a> has become hard for them to source. Further, they claim the new 2020TI sounds "cleaner" and is more powerful than the original <a href="#Lepai 2020A+">2020A+</a> with the 2020TI putting out 14W@1%THD as compared to 7W@1%THD for the 2020A+ when running on the same 12V@3A (36W) power supply.
 <br><br>
 To my ear, however, this new offering is inferior to its predecessor.  First off, the TI amp appears to be less efficient.  You have to turn it up higher to get the same volume and maximum output on the TI is lower than from the Tripath.  Second, at the risk of sounding like an audiophile knob, the TI seems to convey less presence and soul.
 <br><br>
@@ -150,7 +150,7 @@ This one isn't part of the Lepai, Lepy, Lvpin trifecta of branding awesomeness, 
 <br><br>
 You will see a 5-wire jumper connecting the 1/8" line-level input on the front to the RCA inputs on the back. In the spot on the back where all the others have their 1/8" line-level input, this guy has a 1/4" microphone-level input, a nice feature if it's something you need.
 <br><br>
-Overall power on this one is not impressive. It's not as weak as the <a href="#Lepy LP-2020A">Lepy LP-2020A</a>, but it's not as strong as the <a href="#Lepai 2020A+">Lepai LP-2020A+</a>. Balancing two speakers with the 2020A+ at 25%, the PFA200 is at 50%. Considering the PFA200 claims to be 3x more powerful at 60W than the 2020A+ at 20W, this is pretty sad. Also keep in mind that this "60W" amp comes with a power supply that delivers only 12.5V@2.5A or 31.25W. It's possible that this amp could be great with a 5A brick, but then again the 2020A+ is rumored to be outstanding with a 5A brick as well -- rumors being what they are.
+Overall power on this one is not impressive. It's not as weak as the <a href="#Lepy LP-2020A">Lepy LP-2020A</a>, but it's not as strong as the <a href="#Lepai LP-2020A+">Lepai LP-2020A+</a>. Balancing two speakers with the 2020A+ at 25%, the PFA200 is at 50%. Considering the PFA200 claims to be 3x more powerful at 60W than the 2020A+ at 20W, this is pretty sad. Also keep in mind that this "60W" amp comes with a power supply that delivers only 12.5V@2.5A or 31.25W. It's possible that this amp could be great with a 5A brick, but then again the 2020A+ is rumored to be outstanding with a 5A brick as well -- rumors being what they are.
 <br><br>
 As for sound quality, it's again in the middle. The clarity seems very close to the 2020A+, but it's got a little more bass and unfortunately that bass is a little muddy. If I pre-set the volumes and listened to them with a few seconds pause in between, I probably wouldn't be able to tell the difference. Listening side-by-side though, I appreciate the clarity of the 2020A+.
 <br><br>
