@@ -5,6 +5,7 @@ date:   2018-01-27 10:24:42 -0700
 tags:   tripath hifi reverse_engineering lepai lepy lvpin pyle
 last_modified_at: 2018-05-18
 ---
+![Mini-Hifi Montage](/assets/mini_hifi_montage.png)
 
 There are many little amps that claim to be "Class-T" (a kitschy, propriety name for Tripath's Class-D amp chips and accompanying feedback control circuitry) or "better", come in the same extruded aluminum enclosure, have conspicuously similar brand names and model numbers, and seem to be purposely difficult to tell apart.  Googling around, you can find years and years of narrow comparisons and speculation.  I got tired of reading through conflicting information and run-around, so I bought a bunch of them to tear apart and do a fair comparison.
 
