@@ -23,7 +23,19 @@ There are many little amps that claim to be "Class-T" (a kitschy, propriety name
 |Lepy LP-V3s|Supposedly based around the Toshiba [TA8254](/assets/Toshiba TA8254BHQ.pdf), I'm expecting this to be pretty similar to the Lepy LP-2020A.  Ordered in May 2018 -- Full review coming soon.|
 |Lepy LP-2051|Looking at the model number, I'm guessing this has a Tripath [TK2051](/assets/Tripath TK2051.pdf) inside, but we see how well guessing worked out on the LP-2024A+  Ordered in May 2018 -- Full review coming soon.|
 
-## The Breakdown
+## Actual Data
+|Amplifier|Channel|Frequency|Waypoint|Sound Pressure (Volume)|
+|-|-|-|-|-|
+|[Kinter K2020A+](#Kinter K2020A+)|Left|1kHz|50% Volume|81dB|
+|[Kinter K2020A+](#Kinter K2020A+)|Left|1kHz|Audible Distortion|90dB|
+|[Kinter K2020A+](#Kinter K2020A+)|Left|1kHz|1% THD|91dB|
+|[Kinter K2020A+](#Kinter K2020A+)|Left|1kHz|100% Volume|93dB|
+|[Kinter K2020A+](#Kinter K2020A+)|Left|40Hz|50% Volume|82dB|
+|[Kinter K2020A+](#Kinter K2020A+)|Left|40Hz|Audible Distortion|88dB|
+|[Kinter K2020A+](#Kinter K2020A+)|Left|40Hz|1% THD|89dB|
+|[Kinter K2020A+](#Kinter K2020A+)|Left|40Hz|100% Volume|94dB|
+
+## Opinionated Breakdown
 <a name="Lepai LP-2020A+"></a>
 <table>
 <tr><th>Brand</th><td>Lepai</td></tr>
