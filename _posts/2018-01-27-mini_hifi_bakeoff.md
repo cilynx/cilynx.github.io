@@ -20,7 +20,7 @@ There are many little amps that claim to be "Class-T" (a kitschy, propriety name
 |[Lepy LP-2020A](#Lepy LP-2020A)|Powered by the Yamaha [YDA138](/assets/YDA138.pdf), this one falls short on magic.  With some component replacement it's potentially possible for this to be an quality amp, but as-shipped, steer clear.|
 |[Pyle PFA200](#Pyle PFA200)|Pretty similar to the Lepy LP-2020A above.  Unknown amp chips with obscured labeling.  Doesn't feel like "Class-T" as the marketing wank claims.|
 |Lepy LP-2024A+|Considering the model number, I expected this one would have a Tripath [TA2024](/assets/Tripath TA2024.pdf), but it turns to have a [TAA2008](/assets/Tripath TAA2008.pdf).  I just got this one in May 2018.  Full review coming soon.|
-|Lepy LP-V3s|Supposedly based around the Toshiba [TA8254](/assets/Toshiba TA8254BHQ.pdf), I'm expecting this to be pretty similar to the Lepy LP-2020A.  Ordered in May 2018 -- Full review coming soon.|
+|[Lepy LP-V3S](Lepy LP-V3S)|Supposedly based around the Toshiba [TA8254](/assets/Toshiba TA8254BHQ.pdf), I'm expecting this to be pretty similar to the Lepy LP-2020A.  Ordered in May 2018 -- Full review coming soon.|
 |Lepy LP-2051|Looking at the model number, I'm guessing this has a Tripath [TK2051](/assets/Tripath TK2051.pdf) inside, but we see how well guessing worked out on the LP-2024A+  Ordered in May 2018 -- Full review coming soon.|
 
 ## Actual Data
@@ -144,6 +144,21 @@ Looking under the hood, it's a completely different board than its namesake.  Th
 <br><br>
 Googling around, some folks claim that the Yamaha chip used here actually does a good job if you setup its supporting circuitry correctly.  If I ever care enough if the future maybe I'll play with swapping components, but for the moment, I'm going with the idea that the amp should perform well as shipped.
 </td></tr>
+</table>
+
+<a name="Lepy LP-V3S"></a>
+<table>
+<tr><th>Brand</th><td>Lepy</td></tr>
+<tr><th>Model</th><td>LP-V3S</td></tr>
+<tr><th>Amplifier Chip</th><td>STMicroelectronics TDA7377</td></tr>
+<tr><th>Availability</th><td><a href="https://amzn.to/2IUTZmQ">~$30 on Amazon</a></td></tr>
+<tr><th>Face Text</th><td>Lepy Hi-Fi STEREO AMPLIFIER</td></tr>
+<tr><th>Board Text</th><td>Lepy MADE IN BUKANG P-V3D-2.0 lepy.com.cn 160328 PCB lepai0663.cn.alibaba.com 206C399-2</td></tr>
+<tr><th>Right Channel</th><td>Top White Jack</td></tr>
+<tr><th>Left Channel</th><td>Bottom Red Jack</td></tr>
+<tr><th>Input Power Label</th><td>[None]</td></tr>
+<tr><th>Included Power Supply</th><td>RL-1205AP 12V/5A</td></tr>
+<tr><th>Comments</th><td>Coming Soon!</td></tr>
 </table>
 
 <a name="Pyle PFA200"></a>
