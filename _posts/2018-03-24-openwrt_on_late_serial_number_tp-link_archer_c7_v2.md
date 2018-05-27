@@ -55,7 +55,7 @@ I really didn't want to have to flash [dd-wrt](https://www.dd-wrt.com) in order 
 
 ## The Path That Works
 
-Download [factory-to-ddwrt-US.bin](http://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2015/12-24-2015-r28598/tplink_archer-c7-v2/factory-to-ddwrt-US.bin) from dd-wrt.
+Download [factory-to-ddwrt-US.bin from r28598](http://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2015/12-24-2015-r28598/tplink_archer-c7-v2/factory-to-ddwrt-US.bin) from dd-wrt.  (While the r28598 US version worked on my router, some folks have reported the 18005 error when trying to flash this version, but had success with the [unlocalized firmware from r35874](https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2018/05-04-2018-r35874/tplink_archer-c7-v2/factory-to-ddwrt.bin).)
 
 Download `ArcherC7v2_webrevert.rar` from [this dd-wrt forum thread](https://www.dd-wrt.com/phpBB2/viewtopic.php?p=936939#936939).  You have to be logged in to the forum to see the download links.
 
