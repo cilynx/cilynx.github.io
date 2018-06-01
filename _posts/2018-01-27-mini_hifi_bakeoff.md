@@ -24,6 +24,7 @@ There are many little amps that claim to be "Class-T" (a kitschy, propriety name
 |Lepy LP-2051|Looking at the model number, I'm guessing this has a Tripath [TK2051](/assets/Tripath TK2051.pdf) inside, but we see how well guessing worked out on the LP-2024A+  Ordered in May 2018 -- Full review coming soon.|
 
 ## Actual Data
+
 |Amplifier|Channel|Frequency|Waypoint|Sound Pressure (Volume)|
 |-|-|-|-|-|
 |[Kinter K2020A+](#Kinter K2020A+)|Left|1kHz|50% Volume|81dB|
