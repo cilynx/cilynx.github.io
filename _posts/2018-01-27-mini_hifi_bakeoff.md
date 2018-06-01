@@ -34,6 +34,14 @@ There are many little amps that claim to be "Class-T" (a kitschy, propriety name
 |[Kinter K2020A+](#Kinter K2020A+)|Left|40Hz|Audible Distortion|88dB|
 |[Kinter K2020A+](#Kinter K2020A+)|Left|40Hz|1% THD|89dB|
 |[Kinter K2020A+](#Kinter K2020A+)|Left|40Hz|100% Volume|94dB|
+|[Lepy LP-2020A](#Lepy LP-2020A)|Left|1kHz|50% Volume|64dB|
+|[Lepy LP-2020A](#Lepy LP-2020A)|Left|1kHz|Audible Distortion|82dB|
+|[Lepy LP-2020A](#Lepy LP-2020A)|Left|1kHz|1% THD|84dB|
+|[Lepy LP-2020A](#Lepy LP-2020A)|Left|1kHz|100% Volume|89dB|
+|[Lepy LP-2020A](#Lepy LP-2020A)|Left|40Hz|50% Volume|64dB|
+|[Lepy LP-2020A](#Lepy LP-2020A)|Left|40Hz|Audible Distortion|85dB|
+|[Lepy LP-2020A](#Lepy LP-2020A)|Left|40Hz|1% THD|87dB|
+|[Lepy LP-2020A](#Lepy LP-2020A)|Left|40Hz|100% Volume|88dB|
 
 ## Opinionated Breakdown
 <a name="Lepai LP-2020A+"></a>
