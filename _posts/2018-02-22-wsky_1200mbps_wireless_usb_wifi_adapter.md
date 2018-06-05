@@ -166,7 +166,7 @@ Googling `cfg80211_rtw_change_iface` went down a pretty serious rabbit hole full
 
 [The fix](https://github.com/cilynx/rtl88x2bu/commit/f9a6739ba7eb029899dd65a132f3a4037fda2e86) is simply to get rid of `u32 *flags` in `cfg80211_rtw_change_iface` and `cfg80211_rtw_add_virtual_intf`.
 
-After all that, the module builds properly.  There are several warnings around boolean operations and misleading whitespace, but they don't seem to impact opration in practice.
+After all that, the module builds, albeit with some nasty warnings:
 ```
 rcw@carbon:~/Projects/rtl88x2bu$ make
 make ARCH=x86_64 CROSS_COMPILE= -C /lib/modules/4.14.0-3-amd64/build M=/home/rcw/Projects/rtl88x2bu  modules
@@ -356,3 +356,8 @@ WARNING: "__vfs_read" [/home/rcw/Projects/rtl88x2bu/88x2bu.ko] undefined!
 make[1]: Leaving directory '/usr/src/linux-headers-4.14.0-3-amd64'
 rcw@carbon:~/Projects/rtl88x2bu$ 
 ```
+`__vfs_read` being undefined is going to be a major problem.  `vfs_read` was [deprecated](https://github.com/torvalds/linux/commit/bd8df82be66698042d11e7919e244c8d72b042ca) in 4.14.  Following everyone else's [example](https://github.com/zebulon2/rtl8812au-driver-5.2.9/commit/08e0472fbc60be09f6207b21819ed141cb81d579), we'll replace it with `kernel_read` as well.
+
+Next, let's look at the whitespace warnings.  Looking at the code around them, it looks to me like all of these items were indented properly but not properly bracketed, so they are indeed bugs.  I added the brackets in where they go.
+
+The tilde errors are fun as well.  There's a good explanation of this technically valid but still probably logically a bug [here on StackOverflow](https://stackoverflow.com/questions/44565126/how-to-enable-c-warnings-for-bitwise-operators-with-boolean-arguments).  I converted all of the `~` to `!` as they all appear as they should be logical nots.
