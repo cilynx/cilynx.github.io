@@ -67,25 +67,28 @@ Neural Network - 29:00
 Deep Neural Network -- Neural network w/ multiple hidden layers - 31:00
 
 <https://www.youtube.com/watch?v=2-Ol7ZB0MmU>
+
 Friedly indroduction to Convolutional Neural Networks & Image Recognition
 * Mapping / \ X and O from pixels to understood characters
 
 <https://www.youtube.com/watch?v=UNmqTiOnRfg>
+
 Friendly introducetion to Recurrent Neural Networks
 * Perfect roommate -- Apple pie, Burger, Chicken
 * Vector / matrix math
 
 <https://www.youtube.com/watch?v=aDW44NPhNw0>
+
 Machine Learning: Testing and Error Metrics
 * K-Fold Cross Validation - 5:00
 * High Recall (medical diagnosis -- better to send a healthy person for more tests) vs. High Precision (spam -- better to miss a spam)
 * F1 Score = Harmonic Mean = 2xy/(x+y)
 * Fb score -- if b small (<1) weigh towards precision -- if large (>1) weigh towards recall
 * Overfitting / underfitting - 27:00
-** Under -- error due to bias -- too simple
-*** Bad Train, Bad Test
-** Over -- error due to variance -- too specific
-*** Great train, Bad test
+  * Under -- error due to bias -- too simple
+    * Bad Train, Bad Test
+  * Over -- error due to variance -- too specific
+    * Great train, Bad test
 Grid Search Cross Validation - 41:00
 * Kernel and Gamma
 Parameters and Hyperparameters - 42:00
@@ -137,7 +140,7 @@ jupyter notebook
 <https://www.youtube.com/watch?v=IHZwWFHWa-w>
 * Cost function
 * Back-propagation -- making the adjustments towards gradient descent to minimize the cost function
-** Doing this finds a local minimum
+  * Doing this finds a local minimum
 * Multilayer perceptron -- 80's and 90's technology
 
 <https://www.youtube.com/watch?v=Ilg3gGewQ5U>
@@ -147,3 +150,14 @@ jupyter notebook
 <https://www.youtube.com/watch?v=tIeHLnjs5U8>
 * Backpropagation calculus
 * Super freakin useful.
+
+<https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function/introduction-to-multivariable-calculus/v/multivariable-functions>
+* Grant (3b1b) on Khan
+
+# Roadmaps
+
+<https://github.com/mihui/ml>
+
+<https://medium.com/@thisismetis/roadmap-how-to-learn-machine-learning-in-6-months-7c501889b545>
+
+<https://www.quora.com/What-is-the-best-roadmap-to-learn-machine-learning-using-Python>
