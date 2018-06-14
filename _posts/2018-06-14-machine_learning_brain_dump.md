@@ -4,6 +4,7 @@ title:  Machine Learning Brain Dump
 date:   2018-06-14 11:15:43 -0700
 tags:   machine_learning
 ---
+
 <https://www.youtube.com/channel/UCQALLeQPoZdZC4JNUboVEUg>
 
 
