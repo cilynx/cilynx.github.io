@@ -25,8 +25,8 @@ There are many little amps that claim to be "Class-T" (a kitschy, propriety name
 
 ## Actual Data
 
-|Amplifier|Channel|Frequency|Waypoint|Sound Pressure (Volume)|
-|-|-|-|-|-|
+|Amplifier|Channel|Frequency|Waypoint|Sound Pressure (Volume)|Vrms|
+|-|-|-|-|-|-|
 |[Kinter K2020A+](#Kinter K2020A+)|Left|1kHz|50% Volume|81dB|
 |[Kinter K2020A+](#Kinter K2020A+)|Left|1kHz|Audible Distortion|90dB|
 |[Kinter K2020A+](#Kinter K2020A+)|Left|1kHz|1% THD|91dB|
@@ -43,6 +43,14 @@ There are many little amps that claim to be "Class-T" (a kitschy, propriety name
 |[Lepy LP-2020A](#Lepy LP-2020A)|Left|40Hz|Audible Distortion|85dB|
 |[Lepy LP-2020A](#Lepy LP-2020A)|Left|40Hz|1% THD|87dB|
 |[Lepy LP-2020A](#Lepy LP-2020A)|Left|40Hz|100% Volume|88dB|
+|[Lepy LP-V3S](#Lepy LP-V3S)|Left|1kHz|50% Volume|69dB|1.4V|
+|[Lepy LP-V3S](#Lepy LP-V3S)|Left|1kHz|Audible Distortion|84dB|6.5V|
+|[Lepy LP-V3S](#Lepy LP-V3S)|Left|1kHz|1% THD|86dB|8.7V|
+|[Lepy LP-V3S](#Lepy LP-V3S)|Left|1kHz|100% Volume|90dB|10.8V|
+|[Lepy LP-V3S](#Lepy LP-V3S)|Left|40Hz|50% Volume|71dB|1.1V|
+|[Lepy LP-V3S](#Lepy LP-V3S)|Left|40Hz|Audible Distortion|88dB|8.4V|
+|[Lepy LP-V3S](#Lepy LP-V3S)|Left|40Hz|1% THD|88dB|8.4V|
+|[Lepy LP-V3S](#Lepy LP-V3S)|Left|40Hz|100% Volume|90dB|10.3V|
 
 ## Opinionated Breakdown
 <a name="Lepai LP-2020A+"></a>
