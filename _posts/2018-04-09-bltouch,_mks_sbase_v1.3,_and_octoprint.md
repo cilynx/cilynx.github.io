@@ -2,7 +2,7 @@
 layout: post
 title:  BLTouch, MKS SBASE v1.3, and OctoPrint
 date:   2018-04-09 15:30:50 -0700
-tags:   bltouch, smoothie, octoprint, 3d_printing, kossel
+tags:   bltouch smoothie octoprint 3d_printing kossel
 ---
 ## Wiring it up
 
@@ -29,4 +29,6 @@ If you're going to try this method, make sure you have J4 (the jumper set right 
 
 Instead of troubleshooting deeply into why 1.24 didn't work, I figured I'd just try 1.23 which worked exactly as it should, with 3.3Vpp.
 
+### Cutting it short
 
+All in all, I was really not impressed with the BLTouch and I wound up going back to a only-when-needed mounted FSR on the nozzle.  At some point I may try the BLTouch again, but right now I don't see a good reason.  If I do, I'll finish this post.  If not, I won't.
