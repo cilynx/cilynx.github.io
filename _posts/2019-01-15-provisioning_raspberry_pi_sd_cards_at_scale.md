@@ -2,7 +2,7 @@
 layout: post
 title:  Provisioning Raspberry Pi SD Cards at Scale
 date:   2019-01-15 13:55:58 -0800
-tags:   raspberry_pi
+tags:   raspberry_pi clustering
 ---
 ![Raspberry Pi SD Cards](/assets/20190115_175334.jpg)
 ## Motivation
