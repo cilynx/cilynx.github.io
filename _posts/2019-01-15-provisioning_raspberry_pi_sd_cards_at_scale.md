@@ -4,6 +4,7 @@ title:  Provisioning Raspberry Pi SD Cards at Scale
 date:   2019-01-15 13:55:58 -0800
 tags:   raspberry_pi
 ---
+![Raspberry Pi SD Cards](/assets/20190115_175334.jpg)
 ## Motivation
 
 When I first started my RasPi clustering adventure, I found a ton of blog posts talking about automating the later stages of cluster management and I found several discussing GUI tools and other heavy and/or manual methods of setting up sdcards for the Pis in the first place.  As someone who prides myself both on being lazy and on avoiding untrusted links in the chain, I wanted to avoid specialty pre-built images as well as anything involving steps like:
