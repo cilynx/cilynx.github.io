@@ -31,7 +31,7 @@ tags:   maytronics pool embedded_systems reverse_engineering atmel jtag
 |SCK|3|&#9679;|&#9679;|4|MOSI|
 |RST|5|&#9679;|&#9679;|6|GND|
 
-### AVR JTAG 
+### AVR JTAG
 
 |TCK|1|&#9632;|&#9679;|2|GND|
 |TDO|3|&#9679;|&#9679;|4|VTG|
@@ -64,7 +64,7 @@ tags:   maytronics pool embedded_systems reverse_engineering atmel jtag
 |Q10|088N06N|[N-channel 60V 50A Power Transistor](https://www.infineon.com/dgdl/Infineon-IPD088N06N3-DS-v02_00-en.pdf?fileId=db3a30431ddc9372011e2b2351db4d5c)|
 
 *[SPI]: Serial Peripheral Interface
-*[ISP]: In-System Porgamming
+*[ISP]: In-System Programming
 *[ISCP]: In-Circuit Serial Programming
 *[MOSI]: Master Out Slave In
 *[MISO]: Master In Slave Out
