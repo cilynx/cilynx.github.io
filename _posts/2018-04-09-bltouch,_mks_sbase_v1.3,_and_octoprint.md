@@ -2,7 +2,7 @@
 layout: post
 title:  BLTouch, MKS SBASE v1.3, and OctoPrint
 date:   2018-04-09 15:30:50 -0700
-tags:   bltouch smoothie octoprint 3d_printing kossel
+tags:   smoothie octoprint 3d_printing kossel
 ---
 ## Wiring it up
 
