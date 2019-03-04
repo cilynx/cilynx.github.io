@@ -105,19 +105,19 @@ root@synology-dev:/toolkit#
 
 `EnvDeploy` from `pkgscripts-ng` handles this for us.  It'll take a while as it downloads and extracts a couple gigs or so of environment tarballs.  Use `-v` to specify DSM version and `-p` to specify desired platform.  You don't want to leave out `-p` as it'll waste a bunch of your time / bandwidth / disk setting up every available platform.
 
-For today, I'm targeting DSM 6.2 on x86_64.
+For today, I'm targeting `DSM 6.2` on `braswell`.
 
 ```
-root@synology-dev:/toolkit/pkgscripts-ng# ./EnvDeploy -v 6.2 -p x64
+root@synology-dev:/toolkit/pkgscripts-ng# ./EnvDeploy -v 6.2 -p braswell
 Download... https://sourceforge.net/projects/dsgpl/files/toolkit/DSM6.2/base_env-6.2.txz
 Download destination: /toolkit/toolkit_tarballs/base_env-6.2.txz
-Download... https://sourceforge.net/projects/dsgpl/files/toolkit/DSM6.2/ds.x64-6.2.env.txz
-Download destination: /toolkit/toolkit_tarballs/ds.x64-6.2.env.txz
-Download... https://sourceforge.net/projects/dsgpl/files/toolkit/DSM6.2/ds.x64-6.2.dev.txz
-Download destination: /toolkit/toolkit_tarballs/ds.x64-6.2.dev.txz
-tar -xhf /toolkit/toolkit_tarballs/base_env-6.2.txz -C /toolkit/build_env/ds.x64-6.2
-tar -xhf /toolkit/toolkit_tarballs/ds.x64-6.2.env.txz -C /toolkit/build_env/ds.x64-6.2
-tar -xhf /toolkit/toolkit_tarballs/ds.x64-6.2.dev.txz -C /toolkit/build_env/ds.x64-6.2
+Download... https://sourceforge.net/projects/dsgpl/files/toolkit/DSM6.2/ds.braswell-6.2.env.txz
+Download destination: /toolkit/toolkit_tarballs/ds.braswell-6.2.env.txz
+Download... https://sourceforge.net/projects/dsgpl/files/toolkit/DSM6.2/ds.braswell-6.2.dev.txz
+Download destination: /toolkit/toolkit_tarballs/ds.braswell-6.2.dev.txz
+tar -xhf /toolkit/toolkit_tarballs/base_env-6.2.txz -C /toolkit/build_env/ds.braswell-6.2
+tar -xhf /toolkit/toolkit_tarballs/ds.braswell-6.2.env.txz -C /toolkit/build_env/ds.braswell-6.2
+tar -xhf /toolkit/toolkit_tarballs/ds.braswell-6.2.dev.txz -C /toolkit/build_env/ds.braswell-6.2
 All task finished.
 root@synology-dev:/toolkit/pkgscripts-ng#
 ```
@@ -161,7 +161,7 @@ root@synology-dev:/toolkit/pkgscripts-ng#
 Once your key shows up, move it into the development environment:
 
 ```
-root@synology-dev:/toolkit/pkgscripts-ng# cp -r ~/.gnupg /toolkit/build_env/ds.x64-6.2/root/
+root@synology-dev:/toolkit/pkgscripts-ng# cp -r ~/.gnupg /toolkit/build_env/ds.braswell-6.2/root/
 root@synology-dev:/toolkit/pkgscripts-ng#
 ```
 
@@ -237,30 +237,30 @@ all="6.2"
 Now, you can finally build the module.
 
 ```
-root@synology-dev:/toolkit# pkgscripts-ng/PkgCreate.py -p x64 -I rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959
+root@synology-dev:/toolkit# pkgscripts-ng/PkgCreate.py -p braswell -I rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959
 
 ============================================================
                    Parse argument result                    
 ------------------------------------------------------------
-sdk_ver      : 6.0
-env_section  : default
-build        : True
+build_opt    :
 branch       : master
-install_opt  :
+only_install : False
+link         : True
+dep_level    : 1
+suffix       :
+collect      : False
+sdk_ver      : 6.0
+install      : False
+env_version  : None
 update       : True
+build        : True
+env_section  : default
+install_opt  :
 sign         : True
 print_log    : False
-only_install : False
-install      : False
-link         : True
-suffix       :
 package      : rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959
-dep_level    : 1
-env_version  : None
-build_opt    :
-collect      : False
 
-Processing [6.2-23739]: x64
+Processing [6.2-23739]: braswell
 
 ============================================================
               Start to run "Traverse project"               
@@ -273,33 +273,36 @@ Processing [6.2-23739]: x64
 ============================================================
                 Start to run "Link Project"                 
 ------------------------------------------------------------
-Link /toolkit/pkgscripts-ng -> /toolkit/build_env/ds.x64-6.2/pkgscripts-ng
-Link /toolkit/source/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 -> /toolkit/build_env/ds.x64-6.2/source/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959
+Link /toolkit/pkgscripts-ng -> /toolkit/build_env/ds.braswell-6.2/pkgscripts-ng
+Link /toolkit/source/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 -> /toolkit/build_env/ds.braswell-6.2/source/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959
 
 ============================================================
                 Start to run "Build Package"                
 ------------------------------------------------------------
-[x64] set -o pipefail; env PackageName=rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 /pkgscripts-ng/SynoBuild --x64 -c --min-sdk 6.0 rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 2>&1 | tee logs.build
+[braswell] set -o pipefail; env PackageName=rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 /pkgscripts-ng/SynoBuild --braswell -c --min-sdk 6.0 rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 2>&1 | tee logs.build
 
 ============================================================
                     Time Cost Statistic                     
 ------------------------------------------------------------
 00:00:00: Traverse project
 00:00:00: Link Project
-00:01:18: Build Package
+00:01:17: Build Package
 
-[SUCCESS] pkgscripts-ng/PkgCreate.py -p x64 -I rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 finished.
+[SUCCESS] pkgscripts-ng/PkgCreate.py -p braswell -I rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 finished.
 root@synology-dev:/toolkit#
 ```
 Here's the build log, in case you're curious.  The warnings look to be due to not knowing about mac80211.  Googling around a bit, it looks like mac80211.ko is available on the NAS, but someone with access to the hardware will have to verify.
 ```
+root@synology-dev:/toolkit# cat build_env/ds.braswell-6.2/logs.build
 Set cache size limit to 3.0 Gbytes
 Statistics cleared
+rm: cannot remove '/env32.mak': No such file or directory
+rm: cannot remove '/env64.mak': No such file or directory
 [INFO] projectList="rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959"
 [INFO] Start to build rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959.
 [SCRIPT] build script: //source/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959/SynoBuildConf/build
 [INFO] ======= Run build script =======
-#make -C /lib/modules/4.9.0-8-amd64/build M=/source/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 clean
+#make -C /usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/modules/DSM-6.2/build M=/source/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 clean
 cd hal ; rm -fr */*/*/*.mod.c */*/*/*.mod */*/*/*.o */*/*/.*.cmd */*/*/*.ko
 cd hal ; rm -fr */*/*.mod.c */*/*.mod */*/*.o */*/.*.cmd */*/*.ko
 cd hal ; rm -fr */*.mod.c */*.mod */*.o */.*.cmd */*.ko
@@ -337,15 +340,17 @@ WARNING: "wiphy_unregister" [/source/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_
 WARNING: "cfg80211_remain_on_channel_expired" [/source/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959/88x2bu.ko] undefined!
 WARNING: "wiphy_register" [/source/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959/88x2bu.ko] undefined!
 [INFO] install-dev scripts not found!
-Time cost: 00:01:18 [Build-->rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959]
+Time cost: 00:01:17 [Build-->rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959]
 [INFO] Build rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 finished!
 
 ----------------- Time cost statistics -----------------
-Time cost: 00:01:18 [Build-->rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959]
+Time cost: 00:01:17 [Build-->rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959]
 
 1 projects, 0 failed.
+
+root@synology-dev:/toolkit#
 ```
-You can test at this point by copying `/toolkit/source/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959/88x2bu.ko` to your NAS and see if you can `insmod` it.
+You can test at this point by copying `/toolkit/build_env/ds.braswell-6.2/source/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959/88x2bu.ko` to your NAS and see if you can `insmod` it.
 ## Preparing to package
 First, we'll need to add an `install` file to that same `SynoBuildConf/` directory as before:
 ```
@@ -471,26 +476,26 @@ root@synology-dev:/toolkit# pkgscripts-ng/PkgCreate.py -c rtl88x2BU_WiFi_linux_v
 ============================================================
                    Parse argument result                    
 ------------------------------------------------------------
-dep_level    : 1
-sign         : True
-suffix       :
-install_opt  :
+install      : True
 only_install : False
-update       : True
+env_version  : None
+package      : rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959
 branch       : master
-env_section  : default
-build_opt    :
+install_opt  :
 link         : True
 print_log    : False
-install      : True
-collect      : True
-build        : True
-platforms    : None
-package      : rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959
 sdk_ver      : 6.0
-env_version  : None
+sign         : True
+dep_level    : 1
+platforms    : None
+suffix       :
+build_opt    :
+build        : True
+env_section  : default
+collect      : True
+update       : True
 
-Processing [6.2-23739]: x64
+Processing [6.2-23739]: braswell
 
 ============================================================
               Start to run "Traverse project"               
@@ -503,23 +508,23 @@ Processing [6.2-23739]: x64
 ============================================================
                 Start to run "Link Project"                 
 ------------------------------------------------------------
-Link /toolkit/pkgscripts-ng -> /toolkit/build_env/ds.x64-6.2/pkgscripts-ng
-Link /toolkit/source/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 -> /toolkit/build_env/ds.x64-6.2/source/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959
+Link /toolkit/pkgscripts-ng -> /toolkit/build_env/ds.braswell-6.2/pkgscripts-ng
+Link /toolkit/source/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 -> /toolkit/build_env/ds.braswell-6.2/source/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959
 
 ============================================================
                 Start to run "Build Package"                
 ------------------------------------------------------------
-[x64] set -o pipefail; env PackageName=rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 /pkgscripts-ng/SynoBuild --x64 -c --min-sdk 6.0 rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 2>&1 | tee logs.build
+[braswell] set -o pipefail; env PackageName=rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 /pkgscripts-ng/SynoBuild --braswell -c --min-sdk 6.0 rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 2>&1 | tee logs.build
 
 ============================================================
                Start to run "Install Package"               
 ------------------------------------------------------------
-[x64] set -o pipefail; env PackageName=rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 /pkgscripts-ng/SynoInstall  --with-debug rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 2>&1 | tee logs.install
+[braswell] set -o pipefail; env PackageName=rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 /pkgscripts-ng/SynoInstall  --with-debug rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 2>&1 | tee logs.install
 
 ============================================================
                Start to run "Install Package"               
 ------------------------------------------------------------
-[x64] set -o pipefail; env PackageName=rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 /pkgscripts-ng/SynoInstall  rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 2>&1 | tee logs.install
+[braswell] set -o pipefail; env PackageName=rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 /pkgscripts-ng/SynoInstall  rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 2>&1 | tee logs.install
 
 ============================================================
              Start to run "Generate code sign"              
@@ -528,26 +533,32 @@ gpg: checking the trustdb
 gpg: 3 marginal(s) needed, 1 complete(s) needed, PGP trust model
 gpg: depth: 0  valid:   3  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 3u
 gpg: next trustdb check due at 2021-03-01
-[x64] Sign package:  php /pkgscripts-ng/CodeSign.php --sign=/image/packages/rtl88x2bu-x86-5.3.1_27678.20180430_COEX20180427-5959.spk
-[x64] Sign package:  php /pkgscripts-ng/CodeSign.php --sign=/image/packages/rtl88x2bu-x86-5.3.1_27678.20180430_COEX20180427-5959_debug.spk
+[braswell] Sign package:  php /pkgscripts-ng/CodeSign.php --sign=/image/packages/rtl88x2bu-braswell-5.3.1_27678.20180430_COEX20180427-5959_debug.spk
+[braswell] Sign package:  php /pkgscripts-ng/CodeSign.php --sign=/image/packages/rtl88x2bu-braswell-5.3.1_27678.20180430_COEX20180427-5959.spk
 
 ============================================================
                Start to run "Collect package"               
 ------------------------------------------------------------
-/toolkit/build_env/ds.x64-6.2/image/packages/rtl88x2bu-x86-5.3.1_27678.20180430_COEX20180427-5959.spk -> /toolkit/result_spk/rtl88x2bu-5.3.1_27678.20180430_COEX20180427-5959
-/toolkit/build_env/ds.x64-6.2/image/packages/rtl88x2bu-x86-5.3.1_27678.20180430_COEX20180427-5959_debug.spk -> /toolkit/result_spk/rtl88x2bu-5.3.1_27678.20180430_COEX20180427-5959
+/toolkit/build_env/ds.braswell-6.2/image/packages/rtl88x2bu-braswell-5.3.1_27678.20180430_COEX20180427-5959.spk -> /toolkit/result_spk/rtl88x2bu-5.3.1_27678.20180430_COEX20180427-5959
+/toolkit/build_env/ds.braswell-6.2/image/packages/rtl88x2bu-braswell-5.3.1_27678.20180430_COEX20180427-5959_debug.spk -> /toolkit/result_spk/rtl88x2bu-5.3.1_27678.20180430_COEX20180427-5959
 
 ============================================================
                     Time Cost Statistic                     
 ------------------------------------------------------------
 00:00:00: Traverse project
 00:00:00: Link Project
-00:01:15: Build Package
+00:01:12: Build Package
 00:00:02: Install Package
-00:00:02: Install Package
+00:00:03: Install Package
 00:00:04: Generate code sign
 00:00:00: Collect package
 
 [SUCCESS] pkgscripts-ng/PkgCreate.py -c rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959 finished.
+root@synology-dev:/toolkit#
+```
+You'll find your SPKs under `/toolkit/results_spk/`:
+```
+root@synology-dev:/toolkit# ls result_spk/rtl88x2bu-5.3.1_27678.20180430_COEX20180427-5959/
+rtl88x2bu-braswell-5.3.1_27678.20180430_COEX20180427-5959_debug.spk  rtl88x2bu-braswell-5.3.1_27678.20180430_COEX20180427-5959.spk
 root@synology-dev:/toolkit#
 ```
