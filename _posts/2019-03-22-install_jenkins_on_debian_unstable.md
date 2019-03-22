@@ -31,3 +31,21 @@ Add the Jenkins repo to your apt sources:
 ```
 echo deb http://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
 ```
+Update and install Jenkins:
+```
+sudo apt update
+sudo apt install jenkins
+```
+Jenkins should now be running:
+```
+rcw@xps:~$ systemctl status jenkins
+● jenkins.service - LSB: Start Jenkins at boot time
+   Loaded: loaded (/etc/init.d/jenkins; generated)
+   Active: active (exited) since Fri 2019-03-22 08:56:47 PDT; 2min 7s ago
+     Docs: man:systemd-sysv-generator(8)
+    Tasks: 0 (limit: 4915)
+   Memory: 0B
+   CGroup: /system.slice/jenkins.service
+rcw@xps:~$
+```
+Go to http://localhost:8080 and follow the on-screen instructions to finish setup.
