@@ -256,8 +256,11 @@ Apr  4 23:01:14 ip-XXX-XXX-XXX-XXX sshd[1171]: Connection reset by 164.52.24.164
 [ec2-user@ip-XXX-XXX-XXX-XXX evil]$
 ```
 We can see several uninvited access attempts, but Lacework only alerts on one:
+
 ![Bad Actor](/assets/badactor.png)
+
 This could well be to avoid flooding alerts with the never-ending barrage of `ssh` attempt given that the one that was called out tried to use a protocol exploit as opposed to just guessing a password.  The rest of the bad login are summarized in the instance drill-down.
+
 ![Bad Logins](/assets/badlogins.png)
 
 That's all for now -- I'll update after chatting with Lacework tomorrow.
