@@ -8,7 +8,7 @@ tags: mc2100 motor controller troubleshooting orac lathe pwm dc power reverse_en
 
 ## Troubleshooting LED
 
-The MC-2100 has a single troubleshooting LED.  Unlike earlier motor controllers, which had several LEDs monitoring different conditions, the MC-2100's LED can give multiple signales.  Each LED state and its meaning is given below:
+The [MC-2100](https://amzn.to/2Q8XGYj) has a single troubleshooting LED.  Unlike earlier motor controllers, which had several LEDs monitoring different conditions, the MC-2100's LED can give multiple signales.  Each LED state and its meaning is given below:
 
 * **OFF** - The controller is NOT receiving AC voltage
 * **ON (Solid)** - The controller is receiving AC voltage, but is not receiving a speed signal.
@@ -24,7 +24,7 @@ The state of the troubleshooting LED is also shown on the treadmill console when
 * **4** - The high voltage buss is charging.
 * **6** - The high voltage buss is charged and the unit is running.  _Equivalent to SPD CNTL and SCR TRIG lighting on the MC-60._
 * **14** - Current Limit is active.  _Equivalent to CUR LIM lighting on the MC-60._
-* **30** - Controller is in fold-back.  To prvent overheating, if the controller remains near its current limit for an extended time, it will reduce, or 'fold back,' the amount of current allowed.  The controller will return to normal operating levels once the high current condition is corrected. 
+* **30** - Controller is in fold-back.  To prvent overheating, if the controller remains near its current limit for an extended time, it will reduce, or 'fold back,' the amount of current allowed.  The controller will return to normal operating levels once the high current condition is corrected.
 
 ## Troubleshooting Workflow
 
@@ -49,8 +49,8 @@ Check the troubleshooting LED on the motor controller.  Does it flicker when spe
 - **Yes** - Continue below.
 
 Set speed to maximum and check for DC voltage to the drive Motor.
-- **No** - Verify speed, motor connections, and voltages on the controller, then replace controller.
-- **Yes** - Replace the drive motor.
+- **No** - Verify speed, motor connections, and voltages on the controller, then [replace controller](https://amzn.to/2Q8XGYj).
+- **Yes** - [Replace the drive motor](https://amzn.to/38JyCh8).
 
 ### No Speed Reading
 
@@ -59,7 +59,7 @@ Check function and position of the reed switch.  Reed switch spacing is 1/8" to 
 - **Yes** - Continue below.
 
 Check for 5 VDC pulse from controller to console on the GREEN wire.  Check both ends.
-- **No** - Replace the controller or wire harness.
+- **No** - [Replace the controller](https://amzn.to/2Q8XGYj) or wire harness.
 - **Yes** - Replace the console or wire harness.
 
 ### No Incline Adjustment
@@ -69,7 +69,7 @@ Check for 5 VDC from the Console to the motor controller while adjusting incline
 - **Yes** - Continue below.
 
 Check for 110-120 VAC from the motor controller to the incline motor while adjusting incline.
-- **No** - Replace the motor controller after verifying all wire connections.
-- **Yes** - Replace the incline motor.
+- **No** - [Replace the motor controller](https://amzn.to/2Q8XGYj) after verifying all wire connections.
+- **Yes** - [Replace the incline motor](https://amzn.to/3cTWjX8).
 
-NOTE: If the motor hums and runs slowly, then take either the RED or BLACK wire off and try again.  If it works, then replace the controller.  It is sending voltage to the motor on both the up and down wires.
+NOTE: If the motor hums and runs slowly, then take either the RED or BLACK wire off and try again.  If it works, then [replace the controller](https://amzn.to/2Q8XGYj).  It is sending voltage to the motor on both the up and down wires.
