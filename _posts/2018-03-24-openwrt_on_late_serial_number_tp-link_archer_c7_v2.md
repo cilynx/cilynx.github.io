@@ -8,13 +8,13 @@ tags:   openwrt tp-link router wifi dd-wrt
 
 I work from home full time and as such require multiple Internet connections to ensure high-availability in spite of consumer-grade uplinks.  Most of the time, when my primary connection craps out, I switch wifi networks over to the router on the secondary connection and continue on with my life.  Ideally, I'd like to use a single router or maybe even a mesh so my work terminal doesn't even notice when one or the other connection drops as long as at least one is working.  Being somewhat familiar with OpenWRT's abilities from [other projects](/openwrt/), I figure setting up multi-wan routing on OpenWRT is the way to go.  Reading through the [mwan3 docs](https://wiki.openwrt.org/doc/howto/mwan3) it appears that the [ar71xx target](https://openwrt.org/docs/targets/ar71xx) is the way to go.  
 
-Poking around Amazon, I settled on the TP-LINK Archer C7.  Reading through the Q&A, it looked like a crapshoot which version would show up, but I figured anything beyond V1 would work so I had a 75% chance of not having to return whatever I got.  I was of course hoping for a V4, which TP-LINK ships with OpenWRT source, but a V2.0 showed up.  Good enough.  Now, to get OpenWRT running on the thing.
+Poking around Amazon, I settled on the [TP-LINK Archer C7](https://amzn.to/2xw5soQ).  Reading through the Q&A, it looked like a crapshoot which version would show up, but I figured anything beyond V1 would work so I had a 75% chance of not having to return whatever I got.  I was of course hoping for a V4, which TP-LINK ships with OpenWRT source, but a V2.0 showed up.  Good enough.  Now, to get OpenWRT running on the thing.
 
-If you don't care abouth the journey and just want the result, you can skip ahead to [the path that works](#the-path-that-works).
+If you don't care about the journey and just want the result, you can skip ahead to [the path that works](#the-path-that-works).
 
 ## Things that Didn't Work
 
-I figured I would start with OpenWRT's [table of hardware](https://openwrt.org/toh/views/toh_fwdownload?dataflt%5BModel*%7E%5D=Archer+C7). 
+I figured I would start with OpenWRT's [table of hardware](https://openwrt.org/toh/views/toh_fwdownload?dataflt%5BModel*%7E%5D=Archer+C7).
 
 [![table of hardware](/assets/Screenshot from 2018-03-24 09-37-34.png)](https://openwrt.org/toh/views/toh_fwdownload?dataflt%5BModel*%7E%5D=Archer+C7)
 
@@ -93,15 +93,15 @@ We're back to TP-LINK OEM firmware, so point your browser back at [192.168.0.1](
 
 Flashing...
 
-![progress](/assets/Screenshot from 2018-03-24 12-07-16.png) 
+![progress](/assets/Screenshot from 2018-03-24 12-07-16.png)
 
 Rebooting...
 
-![rebooting](/assets/Screenshot from 2018-03-24 12-08-52.png) 
+![rebooting](/assets/Screenshot from 2018-03-24 12-08-52.png)
 
 Like dd-wrt, OpenWRT/LEDE use [192.168.1.1](http://192.168.1.1), so point your browser back over there.
 
-![lede login](/assets/Screenshot from 2018-03-25 12-40-19.png) 
+![lede login](/assets/Screenshot from 2018-03-25 12-40-19.png)
 
 Log into OpenWRT/LEDE and enable your wireless interfaces.
 
