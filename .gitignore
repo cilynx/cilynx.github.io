@@ -2,3 +2,5 @@ _site/
 .sass_cache/
 /Gemfile.lock
 .*.sw?
+vendor/
+.bundle/
