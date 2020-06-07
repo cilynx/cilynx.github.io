@@ -31,7 +31,7 @@ Although user programs are stored in RAM and may not be destroyed during this in
 5. Hold unit by endblocks and hinge top back into its service position.
 6. At this point you will see the following boards mounted on the bottom pan of the unit: CPU board, left; Keyboard Scan board, middle; Power Supply board, right.
 7. Remove the 8 phillips head screws underneath the unity which secure the keyboard to the chassis.
-8. Lift the keyboard slightly and disconnect the grey flat ribbon cable connected to the keyboard.
+8. Lift the keyboard slightly and disconnect the grey flat ribbon cable connected to the keyboard.  <span style="color:red">If you have a K1000SE, disconnect the two-wire aftertouch lead from the motherboard.</span>
 9. Once the keyboard is free, remove it and set it safely aside.
 10. Examine the short stranded cable supplied with this kit.  You will be soldering the tinned wire end to an IC on the CPU board and connecting the other end to a connector on the KXA daughter board.
 11. Find location U49, you will be soldering the short cable to this IC.  Solder the blue wire to Pin 13 of U49 and solder the red wire to Pin 12 of U49.  It is not necessary to remove the CPU board to do this as you will be soldering on the component side of the board, however, please be sure you solder onto the leg of the IC.
