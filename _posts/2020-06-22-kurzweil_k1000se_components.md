@@ -4,7 +4,9 @@ title:  Kurzweil K1000SE Components
 date:   2020-06-22 20:23:39 -0700
 tags:   kurzweil k1000 synth
 ---
+![K1000SE Arnold Chips](/assets/20200620_160627.jpg)
 
+# Chips
 |Position|Part Number|Description|Mount|Picture|
 |---|
 |U1|[M74LS244P](/assets/M74LS244P.pdf)|Octal Buffer / Line Driver|Fixed|[Picture](/assets/20200620_103012.jpg)|
