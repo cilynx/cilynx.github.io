@@ -4,6 +4,8 @@ title:  Kurzweil K1000 KXA Sound Block Installation Procedure
 date:   2020-06-06 18:18:05 -0700
 tags:   kurzweil k1000 synth
 ---
+![K1000SE KXA Daughter Board](/assets/kxa.jpg)
+
 <span style="color:red">_Very little of the content on this page is mine.  My additions and comments are in red italics.  This is a transcript of the official KXA Sound Block installation guide that I received from a dear friend along with an old K1000 I'm attempting to resurrect._</span>
 
 |KMS Part Number|Description|Location|Quantity|
@@ -36,14 +38,14 @@ Although user programs are stored in RAM and may not be destroyed during this in
 10. Examine the short stranded cable supplied with this kit.  You will be soldering the tinned wire end to an IC on the CPU board and connecting the other end to a connector on the KXA daughter board.
 11. Find location U49, you will be soldering the short cable to this IC.  Solder the blue wire to Pin 13 of U49 and solder the red wire to Pin 12 of U49.  It is not necessary to remove the CPU board to do this as you will be soldering on the component side of the board, however, please be sure you solder onto the leg of the IC.
 12. Remove U21 and U32 from the CPU board.  Use extreme caution, these ICs need to be returned to Kurzweil in tact.
-13. Insert the new U21, part no. 82120005, and U32, part no. 82120006, provided with this kit.  Be sure Pin 1 is facing the rear panel. _CAUTION: Do not position the ICs by following the laber direction.  Position the ICs by following the notch or dot for Pin 1 only._
+13. Insert the new U21, part no. 82120005, and U32, part no. 82120006, provided with this kit.  Be sure Pin 1 is facing the rear panel. _CAUTION: Do not position the ICs by following the label direction.  Position the ICs by following the notch or dot for Pin 1 only._
 14. Remove the ROMs in locations U50, U55 and U59 from the CPU board.
 15. Examine the KXA daughter board.  You will notice the pins on the underside of the board.  These pins insert into the U50, U55 and U59 sockets on the CPU board.  You should line the board up as follows:<br>
 <br>
 J1 on daughter board to U50<br>
 J2 on daughter board to U55<br>
 J3 on daughter board to U59
-16. Remove the adhesive backing from the nylon p.c. mounts on the KXA doughter board.  In order for proper clearance for some parts on the CPU board, the p.c. mounts may need to be turned as you insert the daughter board.
+16. Remove the adhesive backing from the nylon p.c. mounts on the KXA daughter board.  In order for proper clearance for some parts on the CPU board, the p.c. mounts may need to be turned as you insert the daughter board.
 17. Because the daughter board will be flush with parts located on the CPU board, any capacitor that is standing straight up should be bent over prior to inserting the board.
 18. Insert the daughter boarding into the empty sockets carefully.  If pins are bent, they may possibly break.
 19. Insert the connector end of the cable soldered to U49 to location P-CS on the daughter board.  This connection is keyed, therefore, you will not be able to insert backwards.
