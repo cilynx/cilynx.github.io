@@ -4,6 +4,8 @@ title:  Kurzweil K1000 Sound Block A (KX-A)
 date:   2020-06-06 18:54:54 -0700
 tags:   kurzweil k1000 synth
 ---
+![K1000SE KXA Daughter Board](/assets/kxa.jpg)
+
 <span style="color:red">_Very little of the content on this page is mine.  My additions and comments are in red italics.  This is a transcript of the insert that came along with a KX-A Sound Block that I received from a dear friend along with an old K1000 I'm attempting to resurrect._</span>
 
 # Kurzweil K1000
