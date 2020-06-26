@@ -6,6 +6,31 @@ tags:   kurzweil k1000 synth
 ---
 ![K1000SE Arnold Chips](/assets/20200620_160627.jpg)
 
+# Headers & Harnesses
+Diagrams created with [WireViz](https://github.com/formatc1702/WireViz).
+
+## PSU <-> CPU
+Defined in [K1000 Power Supply (PSK-57)](/assets/8-10_K1000 Power supply %28PSK-57%29.jpg).
+![PSU-CPU Harness](/assets/k1000se_psu-cpu.svg)
+```yml
+connectors:
+   PSU J2:
+      pinout: [+5V (Backup), PCK, RESET, GND (Digital), GND (Digital), +5V, +5V, +12V, GND (Analog), -12V]
+   CPU J4:
+      pinout: [GND, GND, +5V, +12V, -12V, GND, +5V, +5V, 'CLK?', 'RST?']
+
+cables:
+   W1:
+      wirecount: 10
+      colors: [BK, BK, RD, BU, OG, BK, RD, RD, VT, YE]
+
+connections:
+   -
+      - CPU J4: [1-10]
+      - W1: [1-10]
+      - PSU J2: [4,5,6,8,10,9,1,7,2,3]
+```
+
 # Chips
 
 |Position|Part Number|Description|Mount|Picture|
