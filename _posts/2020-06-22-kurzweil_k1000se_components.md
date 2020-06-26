@@ -4,7 +4,6 @@ title:  Kurzweil K1000SE Components
 date:   2020-06-22 20:23:39 -0700
 tags:   kurzweil k1000 synth
 ---
-![K1000SE Arnold Chips](/assets/20200620_160627.jpg)
 
 ## Table of Contents
 * TOC
