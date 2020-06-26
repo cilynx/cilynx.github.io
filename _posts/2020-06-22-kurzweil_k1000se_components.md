@@ -31,19 +31,14 @@ connectors:
    Voltage Selector:
       pinout: [100Vac, 120Vac, 220Vac, 240Vac, Input]
 
-
 cables:
    W1:
-      wirecount: 5
       colors: [WH, BU, GN, YE, OG]
-   W2:
-      wirecount: 4
+   Power Block Traces:
       colors: [BU, GN, YE, OG]
-   W3:
-      wirecount: 1
+   Power Block Trace:
       colors: [BK]
-   W4:
-      wirecount: 2
+   W2:
       colors: [GY,BN]
 
 connections:
@@ -53,19 +48,19 @@ connections:
       - Power Block J2: [1,3,4,6,7]
    -
       - Voltage Selector: [1-4]
-      - W2: [1-4]
+      - Power Block Traces: [1-4]
       - Power Block J2: [3,4,6,7]
    -
       - Voltage Selector: [5]
-      - W3: [1]
+      - Power Block Trace: [1]
       - Power Block Mains: [1]
    -
       - Power Switch: [1]
-      - W4: [1]
+      - W2: [1]
       - Power Block J2: [9]
    -
       - Power Switch: [2]
-      - W4: [2]
+      - W2: [2]
       - Power Block Mains: [2]
 ```
 
