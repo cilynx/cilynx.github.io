@@ -13,16 +13,19 @@ Diagrams created with [WireViz](https://github.com/formatc1702/WireViz).
 [Schematic](/assets/8-10_K1000 Power supply %28PSK-57%29.jpg) |
 [Photograph](/assets/20200625_190444.jpg)
 ![PSU-CPU Harness](/assets/k1000se_powerblock-transformer.svg)
-```
+```yml
 connectors:
    PBK Mains:
-      pinout: [Mains]
+      pinout: [Hot, Neutral]
    PBK J2:
       pinout: [P2-1, P2-2, P2-3, P2-4, P2-5, P2-6, P2-7, P2-8, P2-9]
    Transformer:
-      pinout: [0V, 100V, 120V, 220V, 240V]
-   Switch:
+      pinout: [GND, 100Vac, 120Vac, 220Vac, 240Vac]
+   Power Switch:
       pinout: [A, B]
+   Voltage Selector:
+      pinout: [100Vac, 120Vac, 220Vac, 240Vac, Input]
+
 
 cables:
    W1:
@@ -31,6 +34,12 @@ cables:
    W2:
       wirecount: 2
       colors: [GY,BN]
+   W3:
+      wirecount: 1
+      colors: [BK]
+   W4:
+      wirecount: 4
+      colors: [BU, GN, YE, OG]
 
 connections:
    -
@@ -38,13 +47,22 @@ connections:
       - W1: [1-5]
       - PBK J2: [1,3,4,6,7]
    -
-      - Switch: [1]
+      - Power Switch: [1]
       - W2: [1]
       - PBK J2: [9]
    -
-      - Switch: [2]
+      - Power Switch: [2]
       - W2: [2]
+      - PBK Mains: [2]
+   -
+      - Voltage Selector: [5]
+      - W3: [1]
       - PBK Mains: [1]
+   -
+      - Voltage Selector: [1-4]
+      - W4: [1-4]
+      - PBK J2: [3,4,6,7]
+
 ```
 
 ### PSU <-> CPU
