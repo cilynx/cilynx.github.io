@@ -17,7 +17,7 @@ connectors:
    PSU J2:
       pinout: [+5V (Backup), PCK, RESET, GND (Digital), GND (Digital), +5V, +5V, +12V, GND (Analog), -12V]
    CPU J4:
-      pinout: [GND, GND, +5V, +12V, -12V, GND, +5V, +5V, 'CLK?', 'RST?']
+      pinout: [GND (Digital), GND (Digital), +5V, +12V, -12V, GND (Analog), +5V (Backup), +5V, PCK, RESET]
 
 cables:
    W1:
