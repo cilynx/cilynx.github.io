@@ -6,8 +6,10 @@ tags:   kurzweil k1000 synth
 ---
 ![K1000SE Arnold Chips](/assets/20200620_160627.jpg)
 
+## Table of Contents
 * TOC
 {:toc}
+
 
 ## Headers & Harnesses
 Diagrams created with [WireViz](https://github.com/formatc1702/WireViz).
@@ -18,9 +20,9 @@ Diagrams created with [WireViz](https://github.com/formatc1702/WireViz).
 ![PSU-CPU Harness](/assets/k1000se_powerblock-transformer.svg)
 ```yml
 connectors:
-   PBK Mains:
+   Power Block Mains:
       pinout: [Hot, Neutral]
-   PBK J2:
+   Power Block J2:
       pinout: [P2-1, P2-2, P2-3, P2-4, P2-5, P2-6, P2-7, P2-8, P2-9]
    Transformer:
       pinout: [GND, 100Vac, 120Vac, 220Vac, 240Vac]
@@ -35,37 +37,36 @@ cables:
       wirecount: 5
       colors: [WH, BU, GN, YE, OG]
    W2:
-      wirecount: 2
-      colors: [GY,BN]
+      wirecount: 4
+      colors: [BU, GN, YE, OG]
    W3:
       wirecount: 1
       colors: [BK]
    W4:
-      wirecount: 4
-      colors: [BU, GN, YE, OG]
+      wirecount: 2
+      colors: [GY,BN]
 
 connections:
    -
       - Transformer: [1,2,3,4,5]
       - W1: [1-5]
-      - PBK J2: [1,3,4,6,7]
+      - Power Block J2: [1,3,4,6,7]
    -
-      - Power Switch: [1]
-      - W2: [1]
-      - PBK J2: [9]
-   -
-      - Power Switch: [2]
-      - W2: [2]
-      - PBK Mains: [2]
+      - Voltage Selector: [1-4]
+      - W2: [1-4]
+      - Power Block J2: [3,4,6,7]
    -
       - Voltage Selector: [5]
       - W3: [1]
-      - PBK Mains: [1]
+      - Power Block Mains: [1]
    -
-      - Voltage Selector: [1-4]
-      - W4: [1-4]
-      - PBK J2: [3,4,6,7]
-
+      - Power Switch: [1]
+      - W4: [1]
+      - Power Block J2: [9]
+   -
+      - Power Switch: [2]
+      - W4: [2]
+      - Power Block Mains: [2]
 ```
 
 ### PSU <-> CPU
