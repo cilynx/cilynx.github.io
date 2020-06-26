@@ -6,11 +6,49 @@ tags:   kurzweil k1000 synth
 ---
 ![K1000SE Arnold Chips](/assets/20200620_160627.jpg)
 
-# Headers & Harnesses
+## Headers & Harnesses
 Diagrams created with [WireViz](https://github.com/formatc1702/WireViz).
 
-## PSU <-> CPU
-Defined in [K1000 Power Supply (PSK-57)](/assets/8-10_K1000 Power supply %28PSK-57%29.jpg).
+### Power Block <-> Transformer
+[Schematic](/assets/8-10_K1000 Power supply %28PSK-57%29.jpg) |
+[Photograph](/assets/20200625_190444.jpg)
+![PSU-CPU Harness](/assets/k1000se_powerblock-transformer.svg)
+```
+connectors:
+   PBK Mains:
+      pinout: [Mains]
+   PBK J2:
+      pinout: [P2-1, P2-2, P2-3, P2-4, P2-5, P2-6, P2-7, P2-8, P2-9]
+   Transformer:
+      pinout: [0V, 100V, 120V, 220V, 240V]
+   Switch:
+      pinout: [A, B]
+
+cables:
+   W1:
+      wirecount: 5
+      colors: [WH, BU, GN, YE, OG]
+   W2:
+      wirecount: 2
+      colors: [GY,BN]
+
+connections:
+   -
+      - Transformer: [1,2,3,4,5]
+      - W1: [1-5]
+      - PBK J2: [1,3,4,6,7]
+   -
+      - Switch: [1]
+      - W2: [1]
+      - PBK J2: [9]
+   -
+      - Switch: [2]
+      - W2: [2]
+      - PBK Mains: [1]
+```
+
+### PSU <-> CPU
+[Schematic](/assets/8-10_K1000 Power supply %28PSK-57%29.jpg)
 ![PSU-CPU Harness](/assets/k1000se_psu-cpu.svg)
 ```yml
 connectors:
@@ -31,7 +69,7 @@ connections:
       - PSU J2: [4,5,6,8,10,9,1,7,2,3]
 ```
 
-# Chips
+## Chips
 
 |Position|Part Number|Description|Mount|Picture|
 |---|
