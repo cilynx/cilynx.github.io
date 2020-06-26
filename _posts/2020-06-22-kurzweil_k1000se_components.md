@@ -6,6 +6,9 @@ tags:   kurzweil k1000 synth
 ---
 ![K1000SE Arnold Chips](/assets/20200620_160627.jpg)
 
+* TOC
+{:toc}
+
 ## Headers & Harnesses
 Diagrams created with [WireViz](https://github.com/formatc1702/WireViz).
 
