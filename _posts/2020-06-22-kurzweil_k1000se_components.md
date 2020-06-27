@@ -15,8 +15,8 @@ Diagrams created with [WireViz](https://github.com/formatc1702/WireViz).
 
 ### Power Block <-> Transformer
 [Schematic](/assets/8-10_K1000 Power supply %28PSK-57%29.jpg) |
-[Photograph](/assets/20200625_190444.jpg)
-![PSU-CPU Harness](/assets/k1000se_powerblock-transformer.svg)
+[Picture](/assets/20200625_190444.jpg)
+[![PSU-CPU Harness](/assets/k1000se_powerblock-transformer.svg)](/assets/k1000se_powerblock-transformer.svg)
 ```yml
 connectors:
    Power Block Mains:
@@ -66,7 +66,7 @@ connections:
 ### Transformer <-> PSU
 [Schematic](/assets/8-10_K1000 Power supply %28PSK-57%29.jpg) |
 [Picture](/assets/20200625_171356.jpg)
-![PSU-CPU Harness](/assets/k1000se_transformer-psu.svg)
+[![PSU-CPU Harness](/assets/k1000se_transformer-psu.svg)](/assets/k1000se_transformer-psu.svg)
 ```yml
 connectors:
    Transformer:
@@ -87,7 +87,7 @@ connections:
 
 ### PSU <-> CPU
 [Schematic](/assets/8-10_K1000 Power supply %28PSK-57%29.jpg)
-![PSU-CPU Harness](/assets/k1000se_psu-cpu.svg)
+[![PSU-CPU Harness](/assets/k1000se_psu-cpu.svg)](/assets/k1000se_psu-cpu.svg)
 ```yml
 connectors:
    PSU J2:
