@@ -63,6 +63,28 @@ connections:
       - Power Block Mains: [2]
 ```
 
+### Transformer <-> PSU
+[Schematic](/assets/8-10_K1000 Power supply %28PSK-57%29.jpg) |
+[Picture](/assets/20200625_171356.jpg)
+![PSU-CPU Harness](/assets/k1000se_transformer-psu.svg)
+```yml
+connectors:
+   Transformer:
+      pinout: [5Vac, GND, 5Vac, 12Vac, GND, 12Vac]
+   PSU J1:
+      pinout: [5Vac, GND, 5Vac, 12Vac, GND, 12Vac]
+
+cables:
+   W1:
+      colors: [RD, BK, RD, BN, GY, BN]
+
+connections:
+   -
+      - PSU J1: [1-6]
+      - W1: [1-6]
+      - Transformer: [1-6]
+```
+
 ### PSU <-> CPU
 [Schematic](/assets/8-10_K1000 Power supply %28PSK-57%29.jpg)
 ![PSU-CPU Harness](/assets/k1000se_psu-cpu.svg)
