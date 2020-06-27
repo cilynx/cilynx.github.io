@@ -103,7 +103,7 @@ connectors:
       pinout: [GND, RIGHT, LEFT, GND, -12Vdc, +12Vdc]
    Headphone Jack:
       pinout: [SLEEVE, TIP, RING]
-   Input Wheel Junction:
+   Input Wheels Junction:
       pinout: [-12Vdc, 'Pitch Bender Signal', 'Mod Wheel Signal',' ',' ']
    Mod Wheel:
       pinout: [-12Vdc, WIPER, ' ']
@@ -134,7 +134,6 @@ cables:
    Volume Slider Power/Reference:
       colors: [BK, VT, BU]
 
-
 connections:
    -
       - Audio Board J-PS: [1-4]
@@ -153,23 +152,23 @@ connections:
       - Main Board J15 Pigtail: [1,2]
       - Audio Board J-AN: [6,7]
    -
-      - Input Wheel Junction: [5]
+      - Input Wheels Junction: [5]
       - Input Wheels Power/Reference (+) - UNCONFIRMED: [1]
       - Main Board J15: [3]
    -
-      - Input Wheel Junction: [1]
+      - Input Wheels Junction: [1]
       - Input Wheels Power/Reference (-): [1]
       - PSU J4: [8]
    -
       - Pitch Bender: [1-3]
       - Pitch Bender Pigtail: [1-3]
-      - Input Wheel Junction: [1,2,5]
+      - Input Wheels Junction: [1,2,5]
    -
       - Mod Wheel: [1-3]
       - Mod Wheel Pigtail: [1-3]
-      - Input Wheel Junction: [1,3,5]
+      - Input Wheels Junction: [1,3,5]
    -
-      - Input Wheel Junction: [2,3]
+      - Input Wheels Junction: [2,3]
       - Input Wheels: [1,2]
       - Audio Board J-AN: [3,4]
    -
