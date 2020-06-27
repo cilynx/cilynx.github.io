@@ -1,0 +1,143 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1>
+   {% if payee.org_id %}
+   <a href="{{ url_for('view_org', id=payee.org_id) }}" class="badge badge-secondary">{{ payee.org.name }}</a>
+   {% endif %}
+   <span class="badge badge-primary">{{ payee.name }}</span>
+   {% if payee.balance < 0 %}
+   <span class="badge badge-danger">${{ payee.balance }}</span>
+   {% else %}
+   <span class="badge badge-success">${{ payee.balance }}</span>
+   {% endif %}
+</h1>
+
+{% if not payee.org_id %}
+<div class="alert alert-primary" role="alert">
+<p>No parent Organization defined.  Most likely candidates are:</p>
+<ul>
+{% for couplet in payee.likely_orgs %}
+{% set (org, score) = couplet %}
+<li>
+   <a href="{{ url_for('view_org', id=org.id) }}" class="badge badge-secondary">{{ org.name }}</a>
+   <a href="{{ url_for('link_org', pid=payee.id, oid=org.id) }}">link</a>
+</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
+{% if payee.transactions.count() %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+<div class="card">
+   <div class="card-body">
+      <canvas id="myChart" height="50"></canvas>
+   </div>
+</div>
+
+<script>
+	var ctx = document.getElementById('myChart').getContext('2d');
+
+	var cfg = {
+		data: {
+			datasets: [{
+				label: '{{ payee.name }}',
+				data: {{ payee.dayByDay | tojson }},
+            backgroundColor: {{ payee.backgroundColors | tojson }},
+            borderColor: {{ payee.borderColors | tojson }},
+				type: 'bar',
+				borderWidth: 1,
+			}]
+		},
+		options: {
+			animation: {
+				duration: 0
+			},
+			scales: {
+				xAxes: [{
+					type: 'time',
+					distribution: 'linear',
+					offset: true,
+					ticks: {
+						major: {
+							enabled: true,
+							fontStyle: 'bold'
+						},
+						source: 'data',
+						autoSkip: true,
+						autoSkipPadding: 75,
+                  samplesize: 100
+					}
+				}],
+				yAxes: [{
+					gridLines: {
+						drawBorder: false
+					},
+					scaleLabel: {
+						display: true,
+						labelString: 'Amount ($)'
+					},
+               ticks: {
+                  beginAtZero: true
+               }
+				}]
+			},
+			tooltips: {
+				intersect: false,
+				mode: 'index',
+				callbacks: {
+					label: function(tooltipItem, myData) {
+						var label = myData.datasets[tooltipItem.datasetIndex].label || '';
+						if (label) {
+							label += ': ';
+						}
+						label += parseFloat(tooltipItem.value).toFixed(2);
+						return label;
+					}
+				}
+			}
+		}
+	};
+
+	var myChart = new Chart(ctx, cfg);
+</script>
+
+<table class="table table-striped">
+   <tr><th>Date</th><th>Source</th><th>Destination</th><th>Debit</th><th>Credit</th><th>Balance</th></tr>
+   {% set balance = [payee.balance] %}
+   {% for transaction in payee.transactions|sort(attribute='date', reverse=True) %}
+   <tr>
+      <td>{{ transaction.date.date() }}</td>
+      <td>
+         {% if transaction.source_account_id %}
+         <a href="{{ url_for('view_account', id=transaction.source_account.id) }}" class="badge badge-primary">{{ transaction.source_account.last_four }}</a>
+         {% endif %}
+      </td>
+      <td>
+         {% if transaction.dest_account_id %}
+         <a href="{{ url_for('view_account', id=transaction.dest_account.id) }}" class="badge badge-primary">{{ transaction.dest_account.last_four }}</a>
+         {% endif %}
+      </td>
+    <td>
+      {% if transaction.source_account_id %}
+      {% if balance.append(balance[0] + transaction.amount) %}{% endif %}
+      <span class="badge badge-danger">{{ "$%.2F"|format(transaction.amount) }}</span>
+      {% endif %}
+    </td>
+    <td>
+      {% if transaction.dest_account_id %}
+      {% if balance.append(balance[0] - transaction.amount) %}{% endif %}
+      <span class="badge badge-success">{{ "$%.2F"|format(transaction.amount) }}</span>
+      {% endif %}
+    </td>
+    <td>
+      <span class="badge badge-{% if balance[0] > 0 %}success{% else %}danger{% endif %}">{{ "$%.2F"|format(balance.pop(0)) }}</span>
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+{% endif %}
+
+{% endblock %}

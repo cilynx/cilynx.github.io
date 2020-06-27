@@ -85,6 +85,99 @@ connections:
       - Transformer: [1-6]
 ```
 
+### PSU <-> Audio Controls
+[PSU Schematic](/assets/8-10_K1000 Power supply %28PSK-57%29.jpg) |
+[Volume Slider Schematic](/assets/8-2_K1000 Volume Slider %28SWK309A%29.pdf)
+[![PSU-CPU Harness](/assets/k1000se_psu-audio.svg)](/assets/k1000se_psu-audio.svg)
+```yml
+connectors:
+   PSU J4:
+      pinout: [' ', ' ', ' ', GND, GND, +5Vdc, +5Vdc, -12Vdc, +12Vdc, ' ', GND, ' ', -12Vdc]
+   Audio Board J-PS:
+      pinout: [+5Vdc, +5Vdc, GND, GND, ' ']
+   Audio Board J-AN:
+      pinout: [3.2Vdc, 3.2Vdc, AN0 (Pitch Bender Signal), AN1 (Mod Wheel Signal), AN2 (Data Slider Signal), AN3, GND, GND]
+   Main Board J15:
+      pinout: [' ', ' ', ' ', GND]
+   Volume Slider J2:
+      pinout: [GND, RIGHT, LEFT, GND, -12Vdc, +12Vdc]
+   Headphone Jack:
+      pinout: [SLEEVE, TIP, RING]
+   Input Wheel Junction:
+      pinout: [-12Vdc, 'Pitch Bender Signal', 'Mod Wheel Signal',' ',' ']
+   Mod Wheel:
+      pinout: [-12Vdc, WIPER, ' ']
+   Pitch Bender:
+      pinout: [-12Vdc, WIPER, ' ']
+   Data Slider:
+      pinout: [3.2Vdc, WIPER, GND]
+
+cables:
+   Audio Board Power:
+      colors: [RD, RD, BK, BK]
+   Data Slider Pigtail:
+      colors: [OG, BU, BK]
+   Headphone Output:
+      colors: [BK, RD, WH]
+   Input Wheels:
+      colors: [BN, YE]
+   Input Wheels Power/Reference (+) - UNCONFIRMED:
+      colors: [BK]
+   Input Wheels Power/Reference (-):
+      colors: [OG]
+   Main Board J15 Pigtail:
+      colors: [WH, BK]
+   Mod Wheel Pigtail:
+      colors: [BU, YE, RD]
+   Pitch Bender Pigtail:
+      colors: [BU, GN, RD]
+   Volume Slider Power/Reference:
+      colors: [BK, VT, BU]
+
+
+connections:
+   -
+      - Audio Board J-PS: [1-4]
+      - Audio Board Power: [1-4]
+      - PSU J4: [7,6,5,4]
+   -
+      - Volume Slider J2: [4-6]
+      - Volume Slider Power/Reference: [1-3]
+      - PSU J4: [11,13,9]
+   -
+      - Volume Slider J2: [1-3]
+      - Headphone Output: [1-3]
+      - Headphone Jack: [1-3]
+   -
+      - Main Board J15: [1,4]
+      - Main Board J15 Pigtail: [1,2]
+      - Audio Board J-AN: [6,7]
+   -
+      - Input Wheel Junction: [5]
+      - Input Wheels Power/Reference (+) - UNCONFIRMED: [1]
+      - Main Board J15: [3]
+   -
+      - Input Wheel Junction: [1]
+      - Input Wheels Power/Reference (-): [1]
+      - PSU J4: [8]
+   -
+      - Pitch Bender: [1-3]
+      - Pitch Bender Pigtail: [1-3]
+      - Input Wheel Junction: [1,2,5]
+   -
+      - Mod Wheel: [1-3]
+      - Mod Wheel Pigtail: [1-3]
+      - Input Wheel Junction: [1,3,5]
+   -
+      - Input Wheel Junction: [2,3]
+      - Input Wheels: [1,2]
+      - Audio Board J-AN: [3,4]
+   -
+      - Data Slider: [1-3]
+      - Data Slider Pigtail: [1-3]
+      - Audio Board J-AN: [2,5,8]
+```
+
 ### PSU <-> CPU
 [Schematic](/assets/8-10_K1000 Power supply %28PSK-57%29.jpg)
 [![PSU-CPU Harness](/assets/k1000se_psu-cpu.svg)](/assets/k1000se_psu-cpu.svg)
