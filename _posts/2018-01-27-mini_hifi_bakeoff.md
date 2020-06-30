@@ -9,11 +9,14 @@ last_modified_at: 2018-05-18
 
 There are many little amps that claim to be "Class-T" (a kitschy, propriety name for Tripath's Class-D amp chips and accompanying feedback control circuitry) or "better", come in the same extruded aluminum enclosure, have conspicuously similar brand names and model numbers, and seem to be purposely difficult to tell apart.  Googling around, you can find years and years of narrow comparisons and speculation.  I got tired of reading through conflicting information and run-around, so I bought a bunch of them to tear apart and do a fair comparison.
 
+* TOC
+{:toc}
+
 ## Amplifiers Reviewed
 
-|Amp|TL;DR|
-|-|-|
-|[Lepai LP-2020A+](#Lepai LP-2020A+)|The mini-amp that started the craze.  Great sound at a great price, but you simply can't find them anymore.  Powered by the legendary Tripath [TA2020-020](/assets/Tripath TA2020-020.pdf).|
+|Amp|TL;DR|Teardown & Testing|
+|---|
+|[Lepai LP-2020A+](#lepai-lp-2020a+)|The mini-amp that started the craze.  Great sound at a great price, but you simply can't find them anymore.  Powered by the legendary Tripath [TA2020-020](/assets/Tripath TA2020-020.pdf).|[![youtube](/assets/youtube.png)](https://www.youtube.com/watch?v=goyDYsjpTYo)|
 |[Kinter K2020A+](#Kinter K2020A+)|In my opinion, this is the true successor to the Lepai LP-2020A+.  It sounds slightly better than even the original and at ~$30, it's well worth its cost.  Powered by the legendary Tripath [TA2020-020](/assets/Tripath TA2020-020.pdf).|
 |[Lvpin LP-2020A+](#Lvpin LP-2020A+)|So far as I can tell, this is an exact copy of the Lepai LP-2020A+.  It sounds identical to my ears.  Powered by the legendary Tripath [TA2020-020](/assets/Tripath TA2020-020.pdf).  At ~$10, you can't really go wrong.  Buy two and wear them like shoes.|
 |[Lepai LP-2020TI](#Lepai LP-2020TI)|This is the one Parts-Express claims is the true successor to the Lepai LP-2020A+.  Powered by the TI [TPA3118](/assets/TPA3118D2.pdf).  Personally, I'm not buying it.  Output power appears slightly lower and the magical presence the Tripath brings just isn't there with the TI heart.|
@@ -23,7 +26,7 @@ There are many little amps that claim to be "Class-T" (a kitschy, propriety name
 |[Lepy LP-V3S](Lepy LP-V3S)|Supposedly based around the Toshiba [TA8254](/assets/Toshiba TA8254BHQ.pdf), I'm expecting this to be pretty similar to the Lepy LP-2020A.  Ordered in May 2018 -- Full review coming soon.|
 |Lepy LP-2051|Looking at the model number, I'm guessing this has a Tripath [TK2051](/assets/Tripath TK2051.pdf) inside, but we see how well guessing worked out on the LP-2024A+  Ordered in May 2018 -- Full review coming soon.|
 
-## Actual Data
+## Old Raw Data
 
 |Amplifier|Channel|Frequency|Waypoint|Sound Pressure (Volume)|Vrms|
 |-|-|-|-|-|-|
@@ -52,8 +55,29 @@ There are many little amps that claim to be "Class-T" (a kitschy, propriety name
 |[Lepy LP-V3S](#Lepy LP-V3S)|Left|40Hz|1% THD|88dB|8.4V|
 |[Lepy LP-V3S](#Lepy LP-V3S)|Left|40Hz|100% Volume|90dB|10.3V|
 
-## Opinionated Breakdown
-<a name="Lepai LP-2020A+"></a>
+## Individual Breakdown
+
+### Lepai LP-2020A+
+
+[Testing and Teardown Video](https://www.youtube.com/watch?v=goyDYsjpTYo)
+
+This is the amp that started the "cheap and tiny but actually hi-fi" amp craze.  Parts Express [claims](https://youtu.be/haBAMl22x88) (through one *very serious* spokesdude, I might add) that they discontinued the model due to the difficulty of acquiring the Tripath chips.  This is a fairly legitimate argument considering Tripath went bankrupt in 2007.  As for durability, I have a three of the original Lepai LP-2020A+ that I picked up back in 2014 that are all still going strong in 2020.  The LED on one has started flaking out, but that's about it.
+
+#### 1% THD @ 40Hz, JBL LX-22 Speakers
+|Input Voltage|Input Current|Input Power|Volume|Output Voltage|
+|---|
+|12V|1.12A|13.44W|69.8dB|6.67V|
+|13V|1.22A|15.86W|70.4dB|7.37V|
+|14V|1.30A|18.20W|72.0dB|7.95V|
+
+#### 1% THD @ 1kHz, JBL LX-22 Speakers
+|Input Voltage|Input Current|Input Power|Volume|Output Voltage|
+|---|
+|12V|0.71A|8.52W|112dB|7.51V|
+|13V|0.77A|10.01W|113dB|8.13V|
+|14V|0.82A|11.48W|113dB|8.69V|
+
+#### Specifications
 <table>
 <tr><th>Brand</th><td>Lepai</td></tr>
 <tr><th>Model</th><td>LP-2020A+</td></tr>
@@ -69,7 +93,6 @@ There are many little amps that claim to be "Class-T" (a kitschy, propriety name
 <tr><th>Front</th><td><img src="/assets/Lepai LP-2020A+ - Naked Front.png"></td></tr>
 <tr><th>Top</th><td><img src="/assets/Lepai LP-2020A+ - Naked Top.png"></td></tr>
 <tr><th>Back</th><td><img src="/assets/Lepai LP-2020A+ - Naked Back.png"></td></tr>
-<tr><th>Comments</th><td>This is the amp that started the "cheap and tiny but actually hi-fi" amp craze.  Parts Express <a href="https://youtu.be/haBAMl22x88">claims</a> (through one *very serious* spokesdude, I might add) that they discontinued the model due to the difficulty of acquiring the Tripath chips.  This is a fairly legitimate argument considering Tripath went bankrupt in 2007.  As for durability, I have a three of the original Lepai LP-2020A+ that I picked up back in 2014 that are all still going strong.</td></tr>
 </table>
 
 <a name="Kinter K2020A+"></a>
@@ -88,13 +111,13 @@ There are many little amps that claim to be "Class-T" (a kitschy, propriety name
 <tr><th>Front</th><td><img src="/assets/Kinter K2020A+ - Naked Front.png"></td></tr>
 <tr><th>Top</th><td><img src="/assets/Kinter K2020A+ - Naked Top.png"></td></tr>
 <tr><th>Back</th><td><img src="/assets/Kinter K2020A+ - Naked Back.png"></td></tr>
-<tr><th>Comments</th><td>The board is laid out almost identically to the <a href="#Lepai LP-2020A+">Lepai LP-2020A+</a>, however if you look closely at the traces and component positioning/labels, you can see that it was re-laid-out and is not an exact copy.
+<tr><th>Comments</th><td>The board is laid out almost identically to the [Lepai LP-2020A+](#lepai-lp-2020a+), however if you look closely at the traces and component positioning/labels, you can see that it was re-laid-out and is not an exact copy.
 <br><br>
-As expected, power handling is practically identical to the <a href="#Lepai LP-2020A+">Lepai LP-2020A+</a> as well.  The surprising part for me is that this amp actually sounds better -- yes, better than its namesake.  Specifically, it's noticeably more clear / articulate.  Listening to Daft Punk's Solar Sailer, this amp brings through more texture in the eighth-note beat from the beginning and more depth and presence when the ambient tones come in around the 1-minute mark.
+As expected, power handling is practically identical to the [Lepai LP-2020A+](#lepai-lp-2020a+) as well.  The surprising part for me is that this amp actually sounds better -- yes, better than its namesake.  Specifically, it's noticeably more clear / articulate.  Listening to Daft Punk's Solar Sailor, this amp brings through more texture in the eighth-note beat from the beginning and more depth and presence when the ambient tones come in around the 1-minute mark.
 <br><br>
 It's worth noting that the Kinter's over-voltage protection is a bit more zealous than the others.  Trying to run this amp with one of the 13.5V supplies that come with the Lepy amps, the Kinter's LED lights up, but the amp itself stays off -- no sound at all.  The Kinter's included power supply puts out a measured 12.29V.
 <br><br>
-Overall, I would say if you're looking for the best sounding cheap amp, this is the one to get.  For 1/3 of the cost, though, you can get the <a href="#Lvpin LP-2020A+">Lvpin LP-2020A+</a> which sounds identical to the original/unobtainable <a href="#Lepai LP-2020A+">Lepai LP-2020A+</a> to my untrained ears.
+Overall, I would say if you're looking for the best sounding cheap amp, this is the one to get.  For 1/3 of the cost, though, you can get the <a href="#Lvpin LP-2020A+">Lvpin LP-2020A+</a> which sounds identical to the original/unobtainable [Lepai LP-2020A+](#lepai-lp-2020a+) to my untrained ears.
 </td></tr>
 </table>
 
@@ -111,9 +134,9 @@ Overall, I would say if you're looking for the best sounding cheap amp, this is 
 <tr><th>Left Channel</th><td>Top Red Jack</td></tr>
 <tr><th>Input Power Label</th><td>DC12V2A</td></tr>
 <tr><th>Included Power Supply</th><td>DC12V3A</td></tr>
-<tr><th>Comments</th><td>While the board itself is green instead of red, the layout looks to be identical to the <a href="#Lepai LP-2020A+">Lepai LP-2020A+</a>. However, the components are definitely different.  For example, the Lvpin uses a single <a href="/assets/GSA-SS-212DM.pdf">GSA-SS-212DM</a> dual relay package while the <a href="#Lepai LP-2020A+">Lepai LP-2020A+</a> and the <a href="#Kinter K2020A+">Kinter K2020A+</a> both use a pair of <a href="/assets/HK4100F.pdf">HK4100F</a> single relays.
+<tr><th>Comments</th><td>While the board itself is green instead of red, the layout looks to be identical to the [Lepai LP-2020A+](#lepai-lp-2020a+). However, the components are definitely different.  For example, the Lvpin uses a single <a href="/assets/GSA-SS-212DM.pdf">GSA-SS-212DM</a> dual relay package while the [Lepai LP-2020A+](#lepai-lp-2020a+) and the <a href="#Kinter K2020A+">Kinter K2020A+</a> both use a pair of <a href="/assets/HK4100F.pdf">HK4100F</a> single relays.
 <br><br>
-Doing a listening test, this amp sounds identical to the <a href="#Lepai LP-2020A+">Lepai LP-2020A+</a>.  Power handling feels exactly the same as well.
+Doing a listening test, this amp sounds identical to the [Lepai LP-2020A+](#lepai-lp-2020a+).  Power handling feels exactly the same as well.
 <br><br>
 While not quite as pleasing to the ear as the <a href="#Kinter K2020A+">Kinter K2020A+</a>, it does 100% live up to the quality of its namesake and for $10 with prime delivery, you really can't go wrong.
 </td></tr>
@@ -132,11 +155,11 @@ While not quite as pleasing to the ear as the <a href="#Kinter K2020A+">Kinter K
 <tr><th>Left Channel</th><td>Top White Jack</td></tr>
 <tr><th>Input Power Label</th><td>DC12V3A</td></tr>
 <tr><th>Included Power Supply</th><td>TH201505 12V/3A</td></tr>
-<tr><th>Comments</th><td>Parts-Express <a href="https://youtu.be/haBAMl22x88">claims</a> this one is the "one true successor" to the original <a href="#Lepai LP-2020A+">Lepai LP-2020A+</a>. They claim that they designed this amp around the <a href="/assets/TPA3118D2.pdf">Texas Instruments TPA3118</a> because the <a href="/assets/Tripath TA2020-020.pdf">Tripath TA2020</a> has become hard for them to source. Further, they claim the new 2020TI sounds "cleaner" and is more powerful than the original <a href="#Lepai 2020A+">2020A+</a> with the 2020TI putting out 14W@1%THD as compared to 7W@1%THD for the 2020A+ when running on the same 12V@3A (36W) power supply.
+<tr><th>Comments</th><td>Parts-Express <a href="https://youtu.be/haBAMl22x88">claims</a> this one is the "one true successor" to the original [Lepai LP-2020A+](#lepai-lp-2020a+). They claim that they designed this amp around the <a href="/assets/TPA3118D2.pdf">Texas Instruments TPA3118</a> because the <a href="/assets/Tripath TA2020-020.pdf">Tripath TA2020</a> has become hard for them to source. Further, they claim the new 2020TI sounds "cleaner" and is more powerful than the original [2020A+](#lepai-lp-2020a+) with the 2020TI putting out 14W@1%THD as compared to 7W@1%THD for the 2020A+ when running on the same 12V@3A (36W) power supply.
 <br><br>
 To my ear, however, this new offering is inferior to its predecessor.  First off, the TI amp appears to be less efficient.  You have to turn it up higher to get the same volume and maximum output on the TI is lower than from the Tripath.  Second, at the risk of sounding like an audiophile knob, the TI seems to convey less presence and soul.
 <br><br>
-This amp doesn't sound bad, but to about the same degree that the <a href="#Kinter K2020A+">Kinter K2020A+</a> sounds better than the <a href="#Lepai LP-2020A+">Lepai LP-2020A+</a>, this one sounds worse.  Considering this is the most expensive of the amps on my list, I don't see any reason for anyone else to buy one as long as the <a href="#Kinter K2020A+">Kinter K2020A+</a> and <a href="#Lvpin LP-2020A+">Lvpin LP-2020A+</a> are available.
+This amp doesn't sound bad, but to about the same degree that the <a href="#Kinter K2020A+">Kinter K2020A+</a> sounds better than the [Lepai LP-2020A+](#lepai-lp-2020a+), this one sounds worse.  Considering this is the most expensive of the amps on my list, I don't see any reason for anyone else to buy one as long as the <a href="#Kinter K2020A+">Kinter K2020A+</a> and <a href="#Lvpin LP-2020A+">Lvpin LP-2020A+</a> are available.
 </td></tr>
 </table>
 
@@ -195,7 +218,7 @@ This one isn't part of the Lepai, Lepy, Lvpin trifecta of branding awesomeness, 
 <br><br>
 You will see a 5-wire jumper connecting the 1/8" line-level input on the front to the RCA inputs on the back. In the spot on the back where all the others have their 1/8" line-level input, this guy has a 1/4" microphone-level input, a nice feature if it's something you need.
 <br><br>
-Overall power on this one is not impressive. It's not as weak as the <a href="#Lepy LP-2020A">Lepy LP-2020A</a>, but it's not as strong as the <a href="#Lepai LP-2020A+">Lepai LP-2020A+</a>. Balancing two speakers with the 2020A+ at 25%, the PFA200 is at 50%. Considering the PFA200 claims to be 3x more powerful at 60W than the 2020A+ at 20W, this is pretty sad. Also keep in mind that this "60W" amp comes with a power supply that delivers only 12.5V@2.5A or 31.25W. It's possible that this amp could be great with a 5A brick, but then again the 2020A+ is rumored to be outstanding with a 5A brick as well -- rumors being what they are.
+Overall power on this one is not impressive. It's not as weak as the <a href="#Lepy LP-2020A">Lepy LP-2020A</a>, but it's not as strong as the [Lepai LP-2020A+](#lepai-lp-2020a+). Balancing two speakers with the 2020A+ at 25%, the PFA200 is at 50%. Considering the PFA200 claims to be 3x more powerful at 60W than the 2020A+ at 20W, this is pretty sad. Also keep in mind that this "60W" amp comes with a power supply that delivers only 12.5V @2.5A or 31.25W. It's possible that this amp could be great with a 5A brick, but then again the 2020A+ is rumored to be outstanding with a 5A brick as well -- rumors being what they are.
 <br><br>
 As for sound quality, it's again in the middle. The clarity seems very close to the 2020A+, but it's got a little more bass and unfortunately that bass is a little muddy. If I pre-set the volumes and listened to them with a few seconds pause in between, I probably wouldn't be able to tell the difference. Listening side-by-side though, I appreciate the clarity of the 2020A+.
 <br><br>
