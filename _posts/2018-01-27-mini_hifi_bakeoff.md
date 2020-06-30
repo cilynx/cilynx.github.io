@@ -3,7 +3,7 @@ layout: post
 title:  Mini Hifi Bakeoff
 date:   2018-01-27 10:24:42 -0700
 tags:   tripath hifi reverse_engineering lepai lepy lvpin pyle
-last_modified_at: 2018-05-18
+last_modified_at: 2020-06-30
 ---
 ![Mini-Hifi Montage](/assets/mini_hifi_montage.png)
 
