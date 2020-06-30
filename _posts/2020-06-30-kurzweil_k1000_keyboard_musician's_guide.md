@@ -4,14 +4,14 @@ title:  Kurzweil K1000 Keyboard Musician's Guide
 date:   2020-06-30 07:35:21 -0700
 tags:   k1000 kurzweil synth
 ---
-<span style="color:red">_Very little of the content on this page is mine.  This is mostly a transcript of the official [K1000 Musician's Guide available directly from Kurzweil](https://kurzweil.com/k1000_series/), edited and enhanced for discoverability and navigation.  My commentary is in red italics._</span>
+<span style="color:red">_Very little of the content on this page is mine.  This is mostly a transcript of the official [K1000 Musician's Guide available directly from Kurzweil](https://kurzweil.com/k1000_series/), edited for discoverability and navigation.  Any commentary from the peanut gallery is in red italics._</span>
 
 * TOC
 {:toc}
 
-# Introduction
+## Introduction
 
-## About This Manual
+### About This Manual
 This manual has been designed to provide you with all the basic information you'll need to set up and operate your new K1000 Keyboard.
 
 [Introduction](#introduction) provides introductory information that is of interest to every K1000 owner.  [Summary of Precautions](#summary-of-precautions) is particularly important.  We urge you to read it before you connect and operate your new instrument.
@@ -32,7 +32,7 @@ The Kurzweil K1000 features the exceptional sonic quality of Kurzweil samples, c
 
 Thank you for your purchase of a Kurzweil K1000 Keyboard.
 
-## Unpacking & Inspection
+### Unpacking & Inspection
 
 The Kurzweil K1000 is delivered in a single corrugated cardboard shipping container.  Upon unpacking your K1000, immediately inspect it for shipping damage.  If it has been damaged in transit, you must place a claim with the carrier or with your Kurzweil dealer.  Kurzweil Music Systems assumes no responsibility for shipping damage.
 
