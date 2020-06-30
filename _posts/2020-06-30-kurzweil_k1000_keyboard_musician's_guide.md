@@ -20,7 +20,7 @@ This manual has been designed to provide you with all the basic information you'
 
 [Operation](#operation) tells how to operate your new instrument.  Procedures from basic program selection to creating multi-timbral polyphony with MIDI sequencers are explained in a step-by-step fashion.
 
-[Basic Editing](#basic-editing) presents instructions for basic program editing.  Here, you will learn how to create layers, keyboard splits, and to modify existing Programs; how to add pre-programmed "compiled effects" to you presets; and how to save presets to the K1000's internal memory (RAM).
+[Basic Editing](#basic-editing) presents instructions for basic program editing.  Here, you will learn how to create layers, keyboard splits, and to modify existing Programs; how to add pre-programmed "compiled effects" to your presets; and how to save presets to the K1000's internal memory (RAM).
 
 [Interfacing](#interfacing) contains technical information on interfacing your K1000 with the "outside world."  
 
