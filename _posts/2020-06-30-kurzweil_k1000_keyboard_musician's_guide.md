@@ -90,3 +90,15 @@ The Kurzweil 1000 Series inherits the sotic legacy of the legendary Kurzweil 250
 You may also use ObjectMover&trade; software to dump Programs and other items to your personal computer.  ObjectMover is available from your Kurzweil dealer.  Information on programming 1000 Series instruments is found in the [1000 Series Programming Reference](https://kurzweil.com/wp-content/uploads/2019/10/K1000ProgRef.pdf).
 
 Each 1000 Series instrument features a comprehensive and flexible MIDI implementation, with full user control over channel assignments, controller assignments, program change mapping and other parameters.  Any of the instrument's voices may be assigned to any of the 16 MIDI channels for multi-timbral payback of sequences, and intelligent allocation of notes minimizes "note stealing."  Finally, a unique, built-in MIDISCOPE function allows the instrument to provide a dynamic display of MIDI events as they are received, and self-diagnostic routines help to pinpoint malfunctions, should the occur.
+
+#### K1000 Structure
+
+The Kerzweil K1000 Keyboard is a multi-timbras instrument which allows flexible creation of split and layered timbres in many combinations.  An individual timbre, or a fully-defined split and/or layered timbre setup, is termed a *Program*.
+
+The K1000 is furnished with a large number of preset Programs which reside in ROM (Read Only Memory).  Each Program has a unique name (for example, Grand Piano or Jazz Organ) and a uniquely numbered memory location.  Factory Programs are stored in memory locations 001-063 and 128-179.
+
+Factory Programs cannot be erased; ROM is a permanent storage medium.  They may, however, be modified by the user, and the modified Programs may be renamed and stored in RAM.  The user RAM locations are numbers 064-127.
+
+A Program may have up to four individual *Layers*.  Each Layer may have its own *Soundfile*, or timbre, assigned to it, and each also may have a distinct set of *Effects* applied to that timbre.
+
+Individual Layers can be assigned to respond to any range of keys on the K1000 keyboard (or that of a separate MIDI controller), and the key ranges for successive Layers of a Program may or may not overlap.  Programs having Layers whose key ranges do not overlap are referred to as *Split* Programs.
