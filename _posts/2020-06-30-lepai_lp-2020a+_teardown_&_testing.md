@@ -24,6 +24,22 @@ This is the amp that started the "cheap and tiny but actually hi-fi" amp craze. 
 |13V|0.77A|10.01W|113dB|8.13V|
 |14V|0.82A|11.48W|113dB|8.69V|
 
+<script>
+const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
+
+const comparer = (idx, asc) => (a, b) => ((v1, v2) =>
+    v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
+    )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+
+// do the work...
+document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
+    const table = th.closest('table');
+    Array.from(table.querySelectorAll('tr:nth-child(n+1)'))
+        .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+        .forEach(tr => table.appendChild(tr) );
+})));
+</script>
+
 ## Specifications
 <table>
 <tr><th>Brand</th><td>Lepai</td></tr>
