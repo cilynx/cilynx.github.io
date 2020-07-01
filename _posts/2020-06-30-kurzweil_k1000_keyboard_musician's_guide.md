@@ -50,3 +50,17 @@ If any of these items is missing, contact your Kurzweil dealer.
 When you first unpack your K1000, you'll notice that there is a strip of clear plastic tape covering the front-panel label plate.  Its function is to protect the plate from scratches when the unit is being packed.  You'll find that it peels off very easily.
 
 We recommend that you save the shipping carton and protective inserts.  For carrying and shipping, they provide the best protection short of a custom-made road case.
+
+### Summary of Precautions
+
+* Keep this _Musician's Guide_ and refer to it whenever you connect and operate your K1000 Keyboard.
+* Make sure that your AC power connection conforms to the guidelines given in [AC Power](#ac-power).
+* To protect against shock hazards and ensure proper operation, _never_ cut or disconnect the power cable ground pin.  Don't use the power cable if it appears frayed.
+* If the fuse in your K1000 should blow, you must replace it with another of the same physical size and current rating.  _Never_ use a fuse with a higher rating, and _never_ attempt to bypass the fuse with a hardwired connection.
+* The Kurzweil K1000 is normally shipped ready to operate with a mains AC voltage of 100 to 120 volts.  If your local AC service is 200 to 240 volts, you _must_ set the unit for the higher voltage.  Follow the procedure given in [AC Power](#ac-power).  _Attempting to operate the K1000 at 200-240 volts AC without properly setting the voltage selector switch will cause extensive damage to the unit._
+* Do not open the K1000 case.  There are no user-serviceable parts inside. <span style="color:red">_lol._</style>  Refer servicing to an authorized Kurzweil Service Center.
+* Do not spill liquids into or on the K1000 chassis.
+* Do not allow the K1000 to overheat.  The K1000 Keyboard will operate at temperatures from 0-55&deg;C (32-131&deg;F).  Make certain that your setup allows adequate ventilation to maintain this temperature range.
+* Do not connect the audio outputs or MIDI connections to a voltage source such as a battery, power supply, mains AC source or amplifier output.
+* Use only standard MIDI cables for MIDI connections.  Do not use ordinary recording studio DIN cables.  If you are uncertain how a cable is wired, _don't use it_.
+* If you try a [Hard Reset](#hard-reset), be sure to press only the VALUE buttons, and no others, when you turn the Expander back on.  Pressing any other buttons while powering up may cause the unit to lock up.
