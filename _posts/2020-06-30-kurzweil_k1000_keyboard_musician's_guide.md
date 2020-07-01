@@ -58,9 +58,35 @@ We recommend that you save the shipping carton and protective inserts.  For carr
 * To protect against shock hazards and ensure proper operation, _never_ cut or disconnect the power cable ground pin.  Don't use the power cable if it appears frayed.
 * If the fuse in your K1000 should blow, you must replace it with another of the same physical size and current rating.  _Never_ use a fuse with a higher rating, and _never_ attempt to bypass the fuse with a hardwired connection.
 * The Kurzweil K1000 is normally shipped ready to operate with a mains AC voltage of 100 to 120 volts.  If your local AC service is 200 to 240 volts, you _must_ set the unit for the higher voltage.  Follow the procedure given in [AC Power](#ac-power).  _Attempting to operate the K1000 at 200-240 volts AC without properly setting the voltage selector switch will cause extensive damage to the unit._
-* Do not open the K1000 case.  There are no user-serviceable parts inside. <span style="color:red">_lol._</style>  Refer servicing to an authorized Kurzweil Service Center.
+* Do not open the K1000 case.  There are no user-serviceable parts inside. <span style="color:red">_lol._</span>  Refer servicing to an authorized Kurzweil Service Center.
 * Do not spill liquids into or on the K1000 chassis.
 * Do not allow the K1000 to overheat.  The K1000 Keyboard will operate at temperatures from 0-55&deg;C (32-131&deg;F).  Make certain that your setup allows adequate ventilation to maintain this temperature range.
 * Do not connect the audio outputs or MIDI connections to a voltage source such as a battery, power supply, mains AC source or amplifier output.
 * Use only standard MIDI cables for MIDI connections.  Do not use ordinary recording studio DIN cables.  If you are uncertain how a cable is wired, _don't use it_.
 * If you try a [Hard Reset](#hard-reset), be sure to press only the VALUE buttons, and no others, when you turn the Expander back on.  Pressing any other buttons while powering up may cause the unit to lock up.
+
+### Description of Features
+
+#### The Kurzweil 1000 Series
+
+The Kurzweil 1000 Series is an integrated line of powerful, cost-effective electronic musical instruments for live performance and recording.  Combining both sample playback and digital emulation of a traditional modular synthesizer in a single unit, each 1000 Series instrument offers prodigious programming flexibility and sonic variety.
+
+The 1000 Series comprises four rack-mounted expander modules and a keyboard model.  All are multi-timbral, and ar capable of responding to information on all 16 MIDI channels in any combination.  The full line:
+
+*1000 PX Professional Expander* -- A 24-note ployphonic module featuring 120 presets ranging from Grand Piano and Strings to Choir, Organs, Acoustic Bass, Vibes, Woodwinds and Brass.
+
+*1000 Sx String Expander* -- A 20-note polyphonic module offering 99 preset sounds, from Professional Ensemble Strings to Solo Violin, Solo Cello and Pizzicato Strings.
+
+*1000 HX Horn Expander* -- A 20-note polyphonic module packed with 100 presets including Trumpet, Trumpet Mutes, Trombones, Saxophones and many others.
+
+*1000 GX Guitar Expander* -- A 20-note polyphonic module with a wide variety of acoustic and electric guitar timbres.
+
+*K1000 Keyboard* -- A 24-note polyphonic keyboard instrument combining 115 of the voice presets of the 1000PX with a weighted 76-not keyboard, dual pedal switches and three 10-location programmable memory banks.
+
+The Kurzweil 1000 Series inherits the sotic legacy of the legendary Kurzweil 250&reg;, the sampling keyboard whose extraordinary fidelity and realism have made it a mainstay of professional music.  Through VLSI (Very Large Scale Integration) integrated-circuit technology, Kurzweil engineers have succeeded in packing each 1000 Series instrument with up to 120 preset Programs based on 16-bit floating-point digitally-sampled sounds.  As a result, identical voices played on the Model 250 and on a 1000 Series instrument are virtually indistinguishable from one another.
+
+1000 Series instruments also incorporate extensive programming features, including both Compiled Effects (pre-prorgammed, adjustable effects such as Chorus, Vibrato, Tremolo and Leslie) and Modular Effects (the digital equivalent of a traditional modular synthesizer, with complete user control over patch configuration and settings).  User-created Programs may be stored in any of 64 RAM (Random Access Memory) locations; the RAM is battery-backed so that user programs are retained when the instrument is turned off or unplugged.
+
+You may also use ObjectMover&trade; software to dump Programs and other items to your personal computer.  ObjectMover is available from your Kurzweil dealer.  Information on programming 1000 Series instruments is found in the [1000 Series Programming Reference](https://kurzweil.com/wp-content/uploads/2019/10/K1000ProgRef.pdf).
+
+Each 1000 Series instrument features a comprehensive and flexible MIDI implementation, with full user control over channel assignments, controller assignments, program change mapping and other parameters.  Any of the instrument's voices may be assigned to any of the 16 MIDI channels for multi-timbral payback of sequences, and intelligent allocation of notes minimizes "note stealing."  Finally, a unique, built-in MIDISCOPE function allows the instrument to provide a dynamic display of MIDI events as they are received, and self-diagnostic routines help to pinpoint malfunctions, should the occur.
