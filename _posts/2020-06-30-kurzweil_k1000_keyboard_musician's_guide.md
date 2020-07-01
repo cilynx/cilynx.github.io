@@ -58,7 +58,7 @@ We recommend that you save the shipping carton and protective inserts.  For carr
 * To protect against shock hazards and ensure proper operation, _never_ cut or disconnect the power cable ground pin.  Don't use the power cable if it appears frayed.
 * If the fuse in your K1000 should blow, you must replace it with another of the same physical size and current rating.  _Never_ use a fuse with a higher rating, and _never_ attempt to bypass the fuse with a hardwired connection.
 * The Kurzweil K1000 is normally shipped ready to operate with a mains AC voltage of 100 to 120 volts.  If your local AC service is 200 to 240 volts, you _must_ set the unit for the higher voltage.  Follow the procedure given in [AC Power](#ac-power).  _Attempting to operate the K1000 at 200-240 volts AC without properly setting the voltage selector switch will cause extensive damage to the unit._
-* Do not open the K1000 case.  There are no user-serviceable parts inside. <span style="color:red">_lol._</span>  Refer servicing to an authorized Kurzweil Service Center.
+* Do not open the K1000 case.  There are no user-serviceable parts inside.  Refer servicing to an authorized Kurzweil Service Center.  <span style="color:red">_lol._</span>
 * Do not spill liquids into or on the K1000 chassis.
 * Do not allow the K1000 to overheat.  The K1000 Keyboard will operate at temperatures from 0-55&deg;C (32-131&deg;F).  Make certain that your setup allows adequate ventilation to maintain this temperature range.
 * Do not connect the audio outputs or MIDI connections to a voltage source such as a battery, power supply, mains AC source or amplifier output.
@@ -83,7 +83,7 @@ The 1000 Series comprises four rack-mounted expander modules and a keyboard mode
 
 **K1000 Keyboard** -- A 24-note polyphonic keyboard instrument combining 115 of the voice presets of the 1000PX with a weighted 76-not keyboard, dual pedal switches and three 10-location programmable memory banks.
 
-The Kurzweil 1000 Series inherits the sotic legacy of the legendary Kurzweil 250&reg;, the sampling keyboard whose extraordinary fidelity and realism have made it a mainstay of professional music.  Through VLSI (Very Large Scale Integration) integrated-circuit technology, Kurzweil engineers have succeeded in packing each 1000 Series instrument with up to 120 preset Programs based on 16-bit floating-point digitally-sampled sounds.  As a result, identical voices played on the Model 250 and on a 1000 Series instrument are virtually indistinguishable from one another.
+The Kurzweil 1000 Series inherits the sonic legacy of the legendary Kurzweil 250&reg;, the sampling keyboard whose extraordinary fidelity and realism have made it a mainstay of professional music.  Through VLSI (Very Large Scale Integration) integrated-circuit technology, Kurzweil engineers have succeeded in packing each 1000 Series instrument with up to 120 preset Programs based on 16-bit floating-point digitally-sampled sounds.  As a result, identical voices played on the Model 250 and on a 1000 Series instrument are virtually indistinguishable from one another.
 
 1000 Series instruments also incorporate extensive programming features, including both Compiled Effects (pre-prorgammed, adjustable effects such as Chorus, Vibrato, Tremolo and Leslie) and Modular Effects (the digital equivalent of a traditional modular synthesizer, with complete user control over patch configuration and settings).  User-created Programs may be stored in any of 64 RAM (Random Access Memory) locations; the RAM is battery-backed so that user programs are retained when the instrument is turned off or unplugged.
 
@@ -115,7 +115,7 @@ As the K1000 front panel graphics indicate, several of the control buttons serve
 |**MODE / LAYER**|Select MIDI receive mode (Omni, Poly, or Mult).|Scroll through the layers in the current Program.|
 |**CHANNEL / MENU**|Cycle through the 16 MIDI channels, whapping at either end (for example, pressing the Down button when channel 1 is selected takes you to channel 16).|Access the various Edit Menus.|
 |**PROGRAM / PARAMETER**|Cycle through the numbered Program memory locations, wrapping at either end.|Select specific programming Parameters.|
-|**VALUE**|No function _unless_ the K1000 is set for Mult mode play; in this case, they act to enabe or disable the currently displayed MIDI channel.  See [Disabling & Deassigning Channels](#disabling--deassigning-channels).|Alter the value settings of Parameters (YES/UP increses the value, and NO/DOWN decreases it) or to respond to question prompts from the K1000 (for example, "Delete Program?").|
+|**VALUE**|No function _unless_ the K1000 is set for Mult mode play; in this case, they act to enable or disable the currently displayed MIDI channel.  See [Disabling & Deassigning Channels](#disabling--deassigning-channels).|Alter the value settings of Parameters (YES/UP increases the value, and NO/DOWN decreases it) or to respond to question prompts from the K1000 (for example, "Delete Program?").|
 
 _**Note** -- If you press and hold a button, its action will begin repeating rapidly after a brief interval.  You can use this feature to move quickly through the range of a button's action.  With the three sets of dual buttons, pressing both at the same time will jump to frequently-used functions, or wrap from high to low limits of ranges._
 
@@ -133,14 +133,8 @@ _The K1000 calibrates its controls when power is applied, and the position of th
 
 **A, B, C** -- These buttons select the K1000's Program Memory Banks.  See [Exploring Programs](#exploring-programs).
 
-**Numeric Buttons** -- These buttons select locations in the PRogram Memory Banks.  In conjunction with ENTER, they also may be used to access Programs directly by number.
+**Numeric Buttons** -- These buttons select locations in the Program Memory Banks.  In conjunction with ENTER, they also may be used to access Programs directly by number.
 
 **ENTER** -- Used with the numeric buttons, this button allows access to Programs without using the PROGRAM button to scroll through long lists.
 
-**STORE** -- This button store Programs to the Program Memory Banks for quick access in performance.
-
-#### AC Power
-
-#### Exploring Programs
-
-#### Disabling & Deassigning Channels
+**STORE** -- This button stores Programs to the Program Memory Banks for quick access in performance.
