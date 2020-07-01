@@ -33,10 +33,10 @@ const comparer = (idx, asc) => (a, b) => ((v1, v2) =>
 
 // do the work...
 document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
-    const table = th.closest('table');
-    Array.from(table.querySelectorAll('tr:nth-child(n+2)'))
-        .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
-        .forEach(tr => table.appendChild(tr) );
+   const tb = th.closest('table').tBodies[0];
+   Array.prototype.slice.call(tb.rows, 0).
+      .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+      .forEach(tr => tb.appendChild(tr) );
 })));
 </script>
 
