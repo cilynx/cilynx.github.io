@@ -73,15 +73,15 @@ The Kurzweil 1000 Series is an integrated line of powerful, cost-effective elect
 
 The 1000 Series comprises four rack-mounted expander modules and a keyboard model.  All are multi-timbral, and ar capable of responding to information on all 16 MIDI channels in any combination.  The full line:
 
-*1000 PX Professional Expander* -- A 24-note ployphonic module featuring 120 presets ranging from Grand Piano and Strings to Choir, Organs, Acoustic Bass, Vibes, Woodwinds and Brass.
+**1000 PX Professional Expander** -- A 24-note ployphonic module featuring 120 presets ranging from Grand Piano and Strings to Choir, Organs, Acoustic Bass, Vibes, Woodwinds and Brass.
 
-*1000 Sx String Expander* -- A 20-note polyphonic module offering 99 preset sounds, from Professional Ensemble Strings to Solo Violin, Solo Cello and Pizzicato Strings.
+**1000 Sx String Expander** -- A 20-note polyphonic module offering 99 preset sounds, from Professional Ensemble Strings to Solo Violin, Solo Cello and Pizzicato Strings.
 
-*1000 HX Horn Expander* -- A 20-note polyphonic module packed with 100 presets including Trumpet, Trumpet Mutes, Trombones, Saxophones and many others.
+**1000 HX Horn Expander** -- A 20-note polyphonic module packed with 100 presets including Trumpet, Trumpet Mutes, Trombones, Saxophones and many others.
 
-*1000 GX Guitar Expander* -- A 20-note polyphonic module with a wide variety of acoustic and electric guitar timbres.
+**1000 GX Guitar Expander** -- A 20-note polyphonic module with a wide variety of acoustic and electric guitar timbres.
 
-*K1000 Keyboard* -- A 24-note polyphonic keyboard instrument combining 115 of the voice presets of the 1000PX with a weighted 76-not keyboard, dual pedal switches and three 10-location programmable memory banks.
+**K1000 Keyboard** -- A 24-note polyphonic keyboard instrument combining 115 of the voice presets of the 1000PX with a weighted 76-not keyboard, dual pedal switches and three 10-location programmable memory banks.
 
 The Kurzweil 1000 Series inherits the sotic legacy of the legendary Kurzweil 250&reg;, the sampling keyboard whose extraordinary fidelity and realism have made it a mainstay of professional music.  Through VLSI (Very Large Scale Integration) integrated-circuit technology, Kurzweil engineers have succeeded in packing each 1000 Series instrument with up to 120 preset Programs based on 16-bit floating-point digitally-sampled sounds.  As a result, identical voices played on the Model 250 and on a 1000 Series instrument are virtually indistinguishable from one another.
 
@@ -93,12 +93,54 @@ Each 1000 Series instrument features a comprehensive and flexible MIDI implement
 
 #### K1000 Structure
 
-The Kerzweil K1000 Keyboard is a multi-timbras instrument which allows flexible creation of split and layered timbres in many combinations.  An individual timbre, or a fully-defined split and/or layered timbre setup, is termed a *Program*.
+The Kerzweil K1000 Keyboard is a multi-timbras instrument which allows flexible creation of split and layered timbres in many combinations.  An individual timbre, or a fully-defined split and/or layered timbre setup, is termed a **Program**.
 
 The K1000 is furnished with a large number of preset Programs which reside in ROM (Read Only Memory).  Each Program has a unique name (for example, Grand Piano or Jazz Organ) and a uniquely numbered memory location.  Factory Programs are stored in memory locations 001-063 and 128-179.
 
 Factory Programs cannot be erased; ROM is a permanent storage medium.  They may, however, be modified by the user, and the modified Programs may be renamed and stored in RAM.  The user RAM locations are numbers 064-127.
 
-A Program may have up to four individual *Layers*.  Each Layer may have its own *Soundfile*, or timbre, assigned to it, and each also may have a distinct set of *Effects* applied to that timbre.
+A Program may have up to four individual **Layers**.  Each Layer may have its own **Soundfile**, or timbre, assigned to it, and each also may have a distinct set of **Effects** applied to that timbre.
 
-Individual Layers can be assigned to respond to any range of keys on the K1000 keyboard (or that of a separate MIDI controller), and the key ranges for successive Layers of a Program may or may not overlap.  Programs having Layers whose key ranges do not overlap are referred to as *Split* Programs.
+Individual Layers can be assigned to respond to any range of keys on the K1000 keyboard (or that of a separate MIDI controller), and the key ranges for successive Layers of a Program may or may not overlap.  Programs having Layers whose key ranges do not overlap are referred to as **Split** Programs.
+
+#### Front Panel Controls & Display
+
+![k1000 Top View](/assets/k1000top.jpg)
+
+As the K1000 front panel graphics indicate, several of the control buttons serve different functions depending upon the instrument's operating mode.  The K1000 has two basic operating modes: PLAY and EDIT.  For each button whose action changes with the operation mode, the upper label indicates its PLAY mode function and the lower its EDIT mode function.
+
+|Button|Play Mode|Edit Mode|
+|---|
+|**PLAY / EDIT**|Select Edit Mode.|Select Play Mode.|
+|**MODE / LAYER**|Select MIDI receive mode (Omni, Poly, or Mult).|Scroll through the layers in the current Program.|
+|**CHANNEL / MENU**|Cycle through the 16 MIDI channels, whapping at either end (for example, pressing the Down button when channel 1 is selected takes you to channel 16).|Access the various Edit Menus.|
+|**PROGRAM / PARAMETER**|Cycle through the numbered Program memory locations, wrapping at either end.|Select specific programming Parameters.|
+|**VALUE**|No function _unless_ the K1000 is set for Mult mode play; in this case, they act to enabe or disable the currently displayed MIDI channel.  See [Disabling & Deassigning Channels](#disabling--deassigning-channels).|Alter the value settings of Parameters (YES/UP increses the value, and NO/DOWN decreases it) or to respond to question prompts from the K1000 (for example, "Delete Program?").|
+
+_**Note** -- If you press and hold a button, its action will begin repeating rapidly after a brief interval.  You can use this feature to move quickly through the range of a button's action.  With the three sets of dual buttons, pressing both at the same time will jump to frequently-used functions, or wrap from high to low limits of ranges._
+
+**DISPLAY** -- This back-lit, two-line, 32-character LCD (Liquid Crystal Display) indicates the current status of the instrument.  In EDIT mode, it displays Menu choices, Parameter values and prompts.  The Display also functions as a power indicator.
+
+**VOLUME** -- This slider controls the K1000 audio outputs.
+
+**DATA ENTRY** -- This slider provides a quick method for entering Values in Edit mode.
+
+**Pitch Wheel** -- This spring loaded, center-detent controller is used primarily to bend notes.  Its range and action are programmable.  See the [1000 Series Programming Reference](https://kurzweil.com/wp-content/uploads/2019/10/K1000ProgRef.pdf).
+
+**Modulation Wheel** -- The Mod wheel is also center-detented, but is not spring-loaded.  It usually controls depth of modulation, but may be programmed to control other functions.
+
+_The K1000 calibrates its controls when power is applied, and the position of the Mod wheel at that time becomes its zero point.  Be sure that the Mode wheel is at center before you turn on the K1000._
+
+**A, B, C** -- These buttons select the K1000's Program Memory Banks.  See [Exploring Programs](#exploring-programs).
+
+**Numeric Buttons** -- These buttons select locations in the PRogram Memory Banks.  In conjunction with ENTER, they also may be used to access Programs directly by number.
+
+**ENTER** -- Used with the numeric buttons, this button allows access to Programs without using the PROGRAM button to scroll through long lists.
+
+**STORE** -- This button store Programs to the Program Memory Banks for quick access in performance.
+
+#### AC Power
+
+#### Exploring Programs
+
+#### Disabling & Deassigning Channels
