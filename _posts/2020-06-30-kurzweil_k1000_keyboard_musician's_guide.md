@@ -138,3 +138,40 @@ _The K1000 calibrates its controls when power is applied, and the position of th
 **ENTER** -- Used with the numeric buttons, this button allows access to Programs without using the PROGRAM button to scroll through long lists.
 
 **STORE** -- This button stores Programs to the Program Memory Banks for quick access in performance.
+
+#### Rear Panel Controls & Connections
+
+**AUDIO OUT** -- The K1000 is provided with tow outputs labeled LEFT and RIGHT, respectively.  The connectors are standard 1/4-inch monophonic phone jacks.
+
+**PEDAL** -- The K1000 pedals connect to these 1/4-inch phone jacks.  Normally, Pedal 1 controls Sustain and Pedal 2 Sostenuto.  The pedals' functions are programmable.
+
+_The K1000 calibrates its pedals when power is applied.  If you hold a pedal down when turning on the K1000, its action will reverse.  Be sure that the pedals are in the proper position when you turn on your K1000.
+
+**MIDI IN** -- This port receives data from a MIDI control source (such as another keyboard or a computer sequencer).
+
+**MIDI THRU** -- When MIDI data are received at the MIDI In port, the K1000 echos the data at this port.  The Thru port is used to chain MIDI devices together.
+
+**MIDI OUT** -- This is the K1000's output port for transmitting MIDI data to other devices.  See [MIDI Operation](#midi-operation).
+
+**AC Power Inlet** -- This three-pin NEMA connector mates with the power cable supplied with the K1000 Keyboard.  To ensure safety and proper operation, _do not use an ungrounded power cord with your K1000._
+
+**POWER** -- This rocker switch controls AC power to the K1000.
+
+**Fuse Compartment** -- Your K1000 is protected by a 1 Amp, 125 volt fuse.  To open the fuse compartment, remove the power cord and gently pry the compartment cover outward with a flat-blade screwdriver.
+
+_**WARNING:** Never substitute a fuse with a higher rating, and never attempt to bypass the fuse._
+
+Please read this section carefully before you set up your K1000 Keyboard.  When making connections, be sure to follow the precautions given here and in [Summary of Precautions](#summary-of-precautions).
+
+The recommended sequence of steps for connecting your K1000 is:
+
+1. Make certain that your K1000 is set for the correct AC line voltage.  If not, follow the instructions in the next section.
+2. Plug the power cord into the AC Inlet of the K1000, then connect it to a grounded AC outlet.
+3. Connect the K1000's audio outputs to your sound system.
+4. Connect the K1000's MIDI Out to the MIDI input of the next instrument in your setup (optional).
+5. Turn on the K1000 (it takes about 3 seconds to power up), then turn on your sound system.
+
+The specific information that you need to perform these steps is given in this chapter.  Refer to the figure below when you make your connections, and be sure to keep track of the Left and Right audio channels.
+
+![k1000 connection diagram](/assets/k1000-mg-figure2-2.png)
+*Figure 2-2 Connecting the Kurzweil K1000 Keyboard*
