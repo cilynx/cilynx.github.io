@@ -4,13 +4,14 @@ title:  Kinter K2020A+ Teardown & Testing
 date:   2020-07-04 10:04:43 -0700
 tags:   kinter tripath hifi
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gWpzyubXQv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 The board is laid out almost identically to the [Lepai LP-2020A+]({% post_url 2020-06-30-lepai_lp-2020a+_teardown_&_testing %}), however if you look closely at the traces and component positioning/labels, you can see that it was re-laid-out and is not an exact copy.
 
 Power handling is just barely better than the [Lepai LP-2020A+]({% post_url 2020-06-30-lepai_lp-2020a+_teardown_&_testing %}) as well.  The surprising part for me is that this amp actually sounds better -- yes, better than its namesake.  Specifically, it's noticeably more clear / articulate.  Listening to Daft Punk's Solar Sailor, this amp brings through more texture in the eighth-note beat from the beginning and more depth and presence when the ambient tones come in around the 1-minute mark.
 
 It's worth noting that the Kinter's over-voltage protection is a bit more zealous than the others.  Running it over-voltage, the Kinter's LED lights up, but the amp itself stays off -- no sound at all.  If you slowly increase the voltage, you can hear the over-voltage protection trip at 12.5V.  The Kinter's included power supply puts out a measured 12.29V.
 
-Overall, I would say if you're looking for the best sounding cheap amp, this is the one to get.  For 1/3 of the cost, though, you can get the [Lvpin LP-2020A+]({% post_url 2018-01-27-mini_hifi_bakeoff %}#Lvpin LP-2020A+) which sounds identical to the original/unobtainable [Lepai LP-2020A+]({% post_url 2020-06-30-lepai_lp-2020a+_teardown_&_testing %}) to my untrained ears.
+Overall, I would say if you're looking for the best sounding cheap amp, this is the one to get.  For 1/2 of the cost, though, you can get the [Lvpin LP-2020A+]({% post_url 2018-01-27-mini_hifi_bakeoff %}#Lvpin LP-2020A+) which sounds identical to the original/unobtainable [Lepai LP-2020A+]({% post_url 2020-06-30-lepai_lp-2020a+_teardown_&_testing %}) to my untrained ears.
 
 ## 1% THD @ 40Hz, JBL LX-22 Speakers
 
