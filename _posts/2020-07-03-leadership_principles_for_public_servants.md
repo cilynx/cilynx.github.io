@@ -54,10 +54,14 @@ One natural outcome of growing leaders is that they move on in their careers.  D
 ## Insist on the Highest Standards
 _Leaders have relentlessly high standards -- many people may think these standards are unreasonably high.  Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes.  Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed._
 
-I'm going to pull out "good enough for government work" again.  Public service.  Should services rendered for the public not be at the highest possible standard?  I don't know if it's apathy, the fog of bureaucracy, malice, greed, or some combination of the above, but "good enough for government work" is now a parody of itself.  Decisions should not be made based on the lowest cost to get the bare minimum done, but rather by the value provided for every public dollar spent.  If we focus on high quality outcomes, we improve our working lives as well as the lives of the citizens we serve.
+I'm going to pull out "good enough for government work" again.  Public service.  Should services rendered for the public not be at the highest possible standard?  I don't know if it's apathy, the fog of bureaucracy, malice, greed, or some combination of the above, but "good enough for government work" is now a parody of itself.  Decisions should not be made based on the lowest cost to get the bare minimum done, but rather by the value provided for every public dollar spent.  If we focus on [high quality outcomes](#deliver-results), we improve our working lives as well as the lives of the citizens we serve.
 
 ## Think Big
 _Thinking small is a self-fulfilling prophecy.  Leaders create and communicate a bold direction that inspires results.  They think differently and look around corners for ways to serve customers._
+
+It's easy to get lost in huge governmental organizations and just keep doing the little things that seem to work.  That said, there is no more powerful institution to truly change peoples' lives for the better at massive scale.  Dream big, think big, and lead big.  Failure is always an option -- fail quickly and learn from it.  Where the mind goes, the body follows.  Keep a vision board of where you want to be and study it every morning before you start your work and every evening before retiring for the day.
+
+_We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win, and the others, too._ [John F. Kennedy - September 12, 1962](https://er.jsc.nasa.gov/seh/ricetalk.htm)
 
 ## Bias for Action
 _Speed matters in business.  Many decisions and actions are reversible and do not need extensive study.  We value calculated risk taking._
