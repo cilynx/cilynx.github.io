@@ -3,7 +3,7 @@ layout: post
 title:  Mini Hifi Bakeoff
 date:   2018-01-27 10:24:42 -0700
 tags:   tripath hifi reverse_engineering lepai lepy lvpin pyle kinter
-last_modified_at: 2020-07-06
+last_modified_at: 2020-07-10
 ---
 ![Mini-Hifi Montage](/assets/mini_hifi_montage.png)
 
@@ -21,8 +21,8 @@ There are many little amps that claim to be "Class-T" (a kitschy, propriety name
 |[Kinter K2020A+]({% post_url 2020-07-04-kinter_k2020a+_teardown_&_testing %})|In my opinion, this is the true successor to the Lepai LP-2020A+.  It sounds slightly better than even the original.  Powered by the Tripath [TA2020-020](/assets/Tripath TA2020-020.pdf).  At ~$40, it's a bit steep, but probably still worth the cost if you're looking for a 12V Tripath.|[![youtube](/assets/youtube.png)](https://www.youtube.com/watch?v=gWpzyubXQv4)|
 |[Lepy LP-2024A+]({% post_url 2020-07-09-lepy_lp-2024a+_teardown_&_testing %})|Considering the model number, I expected this one would have a Tripath [TA2024](/assets/Tripath TA2024.pdf), but it turns to have a [TAA2008](/assets/Tripath TAA2008.pdf).  Objective performance just barely beats the [Lepai LP-2020A+]({% post_url 2020-06-30-lepai_lp-2020a+_teardown_&_testing %}), but it doesn't really matter since neither one is on the market anymore.|[![youtube](/assets/youtube.png)](https://www.youtube.com/watch?v=lMhIdhZ0e2A)|
 |[Lepai LP-2020A+]({% post_url 2020-06-30-lepai_lp-2020a+_teardown_&_testing %})|The mini-amp that started the craze.  Great sound at a great price, but you simply can't find them anymore.  Powered by the legendary Tripath [TA2020-020](/assets/Tripath TA2020-020.pdf).|[![youtube](/assets/youtube.png)](https://www.youtube.com/watch?v=goyDYsjpTYo)|
+|[Lepy LP-2020A]({% post_url 2020-07-10-lepy_lp-2020a_teardown_&_testing %})|Powered by the Yamaha [YDA138](/assets/YDA138.pdf), this one falls short on magic.  With some component replacement it's potentially possible for this to be an quality amp, but as-shipped, steer clear.|[![youtube](/assets/youtube.png)](https://www.youtube.com/watch?v=7tZz-By4wZg)|
 |[Lvpin LP-2020A+](#Lvpin LP-2020A+)|So far as I can tell, this is an exact copy of the Lepai LP-2020A+.  It sounds identical to my ears.  Powered by the legendary Tripath [TA2020-020](/assets/Tripath TA2020-020.pdf).  At ~$10, you can't really go wrong.  Buy two and wear them like shoes.|
-|[Lepy LP-2020A](#Lepy LP-2020A)|Powered by the Yamaha [YDA138](/assets/YDA138.pdf), this one falls short on magic.  With some component replacement it's potentially possible for this to be an quality amp, but as-shipped, steer clear.|
 |[Pyle PFA200](#Pyle PFA200)|Pretty similar to the Lepy LP-2020A above.  Unknown amp chips with obscured labeling.  Doesn't feel like "Class-T" as the marketing wank claims.|
 |[Lepy LP-V3S](Lepy LP-V3S)|Supposedly based around the Toshiba [TA8254](/assets/Toshiba TA8254BHQ.pdf), I'm expecting this to be pretty similar to the Lepy LP-2020A.  Ordered in May 2018 -- Full review coming soon.|
 
@@ -34,11 +34,14 @@ There are many little amps that claim to be "Class-T" (a kitschy, propriety name
 |[Lepy LP-2051]({% post_url 2020-07-07-lepy_lp-2051_teardown_&_testing %})|18V|1.84A|33.12W|84.0dB|12.65V|
 |[Lepy LP-2051]({% post_url 2020-07-07-lepy_lp-2051_teardown_&_testing %})|17V|1.75A|29.75W|82.0dB|11.89V|
 |[Lepai LP-2020TI]({% post_url 2020-07-06-lepai_lp-2020ti_teardown_&_testing %})|14V|1.37A|19.18W|75.7dB|9.44V|
+|[Lepy LP-2020A]({% post_url 2020-07-10-lepy_lp-2020a_teardown_&_testing %})|14V|1.4A|19.6W|75dB|9.33V|
 |[Lepai LP-2020TI]({% post_url 2020-07-06-lepai_lp-2020ti_teardown_&_testing %})|13V|1.26A|16.38W|73.4dB|8.75V|
 |[Lepai LP-2020TI]({% post_url 2020-07-06-lepai_lp-2020ti_teardown_&_testing %})|12V|1.19A|14.28W|73.0dB|8.27V|
 |[Kinter K2020A+]({% post_url 2020-07-04-kinter_k2020a+_teardown_&_testing %})|12V|1.3A|15.6W|73.0dB|8.4V|
+|[Lepy LP-2020A]({% post_url 2020-07-10-lepy_lp-2020a_teardown_&_testing %})|13V|1.3A|16.9W|73dB|8.70V|
 |[Lepai LP-2020A+]({% post_url 2020-06-30-lepai_lp-2020a+_teardown_&_testing %})|14V|1.30A|18.20W|72.0dB|7.95V|
 |[Lepy LP-2024A+]({% post_url 2020-07-09-lepy_lp-2024a+_teardown_&_testing %})|14V|1.30A|18.20W|71.0dB|8.07V|
+|[Lepy LP-2020A]({% post_url 2020-07-10-lepy_lp-2020a_teardown_&_testing %})|12V|1.2A|14.4W|71dB|7.96V|
 |[Lepai LP-2020A+]({% post_url 2020-06-30-lepai_lp-2020a+_teardown_&_testing %})|13V|1.22A|15.86W|70.4dB|7.37V|
 |[Lepy LP-2024A+]({% post_url 2020-07-09-lepy_lp-2024a+_teardown_&_testing %})|13V|1.22A|15.86W|70.3dB|7.51V|
 |[Lepy LP-2024A+]({% post_url 2020-07-09-lepy_lp-2024a+_teardown_&_testing %})|12V|1.15A|13.80W|70.0dB|6.92V|
@@ -85,29 +88,6 @@ There are many little amps that claim to be "Class-T" (a kitschy, propriety name
 Doing a listening test, this amp sounds identical to the [Lepai LP-2020A+]({% post_url 2020-06-30-lepai_lp-2020a+_teardown_&_testing %}).  Power handling feels exactly the same as well.
 <br><br>
 While not quite as pleasing to the ear as the [Kinter K2020A+]({% post_url 2020-07-04-kinter_k2020a+_teardown_&_testing %}), it does 100% live up to the quality of its namesake and for $10 with prime delivery, you really can't go wrong.
-</td></tr>
-</table>
-
-<a name="Lepy LP-2020A"></a>
-<table>
-<tr><th>Brand</th><td>Lepy</td></tr>
-<tr><th>Model</th><td>LP-2020A</td></tr>
-<tr><th>Amplifier Chip</th><td><a href="/assets/YDA138.pdf">YAMAHA YDA138</a> (Rebadged as LP2020-A 1501)</td></tr>
-<tr><th>Availability</th><td><a href="https://amzn.to/2KE6n7J">~$25 on Amazon</a></td></tr>
-<tr><th>Face Text</th><td>Lepy Stereo Class-D Digital Audio Amplifier</td></tr>
-<tr><th>Board Text</th><td>Lepy LP-2020A 170504PCB MADE IN BUKANG</td></tr>
-<tr><th>Right Channel</th><td>Top Red Jack</td></tr>
-<tr><th>Left Channel</th><td>Bottom White Jack</td></tr>
-<tr><th>Input Power Label</th><td>DC12V3A</td></tr>
-<tr><th>Included Power Supply</th><td>BK-40W-13.5Us1130905 12V/3A</td></tr>
-<tr><th>Comments</th><td>
-It doesn't take long to realize that this amp is nowhere near as good as its namesake.  To start off with, the product description includes such gems as "Class D is better than Class T"....which is patently impossible considering Class-T is a subset of Class-D.
-<br><br>
-This amp has less than half of the raw power of the 2020A+. The 2020A at 100% volume both on the input signal and the amp is just loud enough to be uncomfortable with the HPMs, but even at that volume the sound doesn't "fill" a 15'x15' room. It sounds thin, far away, fake. The real Tripath drives the HPMs to fill the room with rich sound at comfortable listening levels and even at background levels you can talk over.  For raw power, the real Tripath amps get well into "hearing protection required" territory well before maxing out either the input signal or amp volume.  It's like the difference between sitting right in front of the band in a small venue (the real Tripath) or being in the parking lot outside a concert hall (this thing).
-<br><br>
-Looking under the hood, it's a completely different board than its namesake.  The main chip is a <a href="/assets/YDA138.pdf">YAMAHA YDA138</a> that has been rebadged as LP2020-A 1501.  They even went as far as putting Lepy branded covers over the output filter inductors.
-<br><br>
-Googling around, some folks claim that the Yamaha chip used here actually does a good job if you setup its supporting circuitry correctly.  If I ever care enough if the future maybe I'll play with swapping components, but for the moment, I'm going with the idea that the amp should perform well as shipped.
 </td></tr>
 </table>
 
