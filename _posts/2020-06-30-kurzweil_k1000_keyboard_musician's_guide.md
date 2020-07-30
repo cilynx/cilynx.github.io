@@ -3,6 +3,7 @@ layout: post
 title:  Kurzweil K1000 Keyboard Musician's Guide
 date:   2020-06-30 07:35:21 -0700
 tags:   k1000 kurzweil synth
+last_modified_at: 2020-07-05
 ---
 <span style="color:red">_Very little of the content on this page is mine.  This is mostly a transcript of the official [K1000 Musician's Guide available directly from Kurzweil](https://kurzweil.com/k1000_series/), edited for discoverability and navigation.  Any commentary from the peanut gallery is in red italics._</span>
 
@@ -175,3 +176,17 @@ The specific information that you need to perform these steps is given in this c
 
 ![k1000 connection diagram](/assets/k1000-mg-figure2-2.png)
 *Figure 2-2 Connecting the Kurzweil K1000 Keyboard*
+
+## Connections
+
+### AC Power
+
+Before connecting your K1000, check to be sure that it is set for the correct line voltage.  The line valtage selector is located on the rear panel, at the end nearest the AC power inlet.  (See figure above.)  Its setting is visible through a small opening in the panel.
+
+To change the setting, insert a flat-blade screwdriver through the opening into the switch slot.  Turn it gently clockwise until the switch clicks into place, then remove the screwdriver and inspect the switch to be sure that its setting corresponds to the local line voltage.
+
+_Caution: Attempting to operate the K1000 at 220 volts without setting the voltage selector switch properly will seriously damage the unit._
+
+Your K1000 is supplied with a three-prong power cable, and will operate best if it is connected to a grounded AC outlet.  This type of outlet is standard in the United States and is now quiet common, although older buildings may have simple two-prong ungrounded outlets.
+
+If your outlet is not furnished with a ground pin, you will have to use an adapter, as shown in the figure below.  You can purchase adapters like this at any hardware store.  Notice that the adapter's ground wire (or lug) must be attached to the outlet plate mounting screw.  _Don't cut or break off the ground pin on your K1000's power cable._
