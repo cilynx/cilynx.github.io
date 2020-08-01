@@ -4,7 +4,7 @@ title:  Lepai LP-2020TI Teardown & Testing
 date:   2020-07-06 08:23:37 -0700
 tags:   lepai hifi
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QVpjQCHYmgY " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2erF33tHO5E " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Parts-Express [claims](https://youtu.be/haBAMl22x88) this one is the "one true successor" to the original [Lepai LP-2020A+]({% post_url 2020-06-30-lepai_lp-2020a+_teardown_&_testing %}). They say that they designed this amp around the [Texas Instruments TPA3118](/assets/TPA3118D2.pdf) because the [Tripath TA2020](/assets/Tripath TA2020-020.pdf) has become hard for them to source. Further, they claim the new 2020TI sounds "cleaner" and is more powerful than the original [2020A+]({% post_url 2020-06-30-lepai_lp-2020a+_teardown_&_testing %}) with the 2020TI putting out 14W@1%THD as compared to 7W@1%THD for the 2020A+ when running on the same 12V@3A (36W) power supply.
 
