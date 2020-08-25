@@ -7,13 +7,13 @@ tags:   k1000 kurzweil synth
 * TOC
 {:toc}
 
-# Getting into Diagnostic Mode
+## Getting into Diagnostic Mode
 
 * Start with your K1000 turned off
 * Hold down **C** and **Play/Edit** while turning the power on
 * You can release **C** and **Play/Edit** once *Kurzweil K1000 Test Supervisor* appears on the LCD
 
-# Navigation
+## Navigation
 
 * **7** and **8** navigate up and down the menu options
 * **9** resets the currently displayed item to its default value
@@ -21,8 +21,8 @@ tags:   k1000 kurzweil synth
 * **4** goes back / up
 * **5** and **6** increment and decrement numeric parameters
 
-# Menu Tree
-## MAIN MENU
+## Menu Tree
+### MAIN MENU
 * RUN ALL TESTS
 * RUN SELF TESTS
 * RUN LCD TEST
@@ -35,7 +35,7 @@ tags:   k1000 kurzweil synth
 * ERROR STATS
 * EXIT SUPERVISOR
 
-## CONFIGURE MENU
+### CONFIGURE MENU
 * SIG ANALYSIS
 * LOOP ON ERROR
 * DISP ERR TEXT
@@ -48,7 +48,7 @@ tags:   k1000 kurzweil synth
 * MAIN MENU
 * TEST SEL MENU
 
-## TEST SEL MENU
+### TEST SEL MENU
 * LCD VISUAL TEST
 * BUTTON TEST
 * PROGRAM ROM TST
