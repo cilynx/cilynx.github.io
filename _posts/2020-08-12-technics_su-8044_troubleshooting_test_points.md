@@ -2,12 +2,9 @@
 layout: post
 title:  Technics SU-8044 Troubleshooting Test Points
 date:   2020-08-12 18:13:45 -0700
-tags:   technics hifi
+tags:   hifi technics su-8044
 ---
-
-Should be able to swap some components (Q402 and/or IC402) with the 8055 to figure out what's not working.
-
-Prolly start by removing the darlington packs and check test points without them.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YeL_e4qqlH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Transistor Parameters
 
@@ -45,8 +42,8 @@ Prolly start by removing the darlington packs and check test points without them
 |Comp|PN|1t|2t|3t|4t|5t|6t|7t|8t|9t|0t|1a|2a|3a|4a|5a|6a|7a|8a|9a|0a|
 |-|
 |IC201|NJM4559DS|0|0|0|-16.4|0|0|0|17.2|
-|IC401|SVISTK0039N|-1.3|-39.6|0|||||0|39.4|1.2|**-9.9**|-37.2|0|||||0|37.0|**-7.3**|
-|IC402|SVISTK0039N|-1.3|-39.6|0|||||0|39.4|1.2|-1.3|-37.2|0|||||0|36.9|1.2|
+|IC401|SVISTK0039N|-1.3|-39.6|0|||||0|39.4|1.2|-1.3|-37.2|0|||||0|36.9|1.2|
+|IC402|SVISTK0039N|-1.3|-39.6|0|||||0|39.4|1.2|**-9.9**|-37.2|0|||||0|37.0|**-7.3**|
 
 # Component Physical Locations
 
