@@ -252,12 +252,12 @@ connections:
 |<a name='U47' href='#U47'>U47</a>|[](/assets/.pdf)||||
 |<a name='U48' href='#U48'>U48</a>|[HD63B40P](/assets/HD63B40P.pdf)|2MHz Programmable Timer Module|Fixed||
 |<a name='U49' href='#U49'>U49</a>|[M74ALS138P](/assets/M74ALS138P.pdf)|3-to-8 Decoder / Demultiplexer|Fixed|[Picture](/assets/20200622_192620.jpg)|
-|<a name='U50' href='#U50'>U50</a>|[A00100Y-02](/assets/A00100Y-02.pdf)|Sound EPROM (Stock)|Socket|[Picture](/assets/20200620_082127.jpg)|
+|<a name='U50' href='#U50'>U50</a>|[A00100Y-02](/assets/A00100Y-02.pdf)|Sound EPROM (Stock) / Daughter Board Connection|Socket|[Picture](/assets/20200620_082127.jpg)|
 |<a name='U51' href='#U51'>U51</a>|[A00200Y-02](/assets/A00200Y-02.pdf)|Sound EPROM (Stock)|Socket|[Picture](/assets/20200620_082127.jpg)|
 |<a name='U52' href='#U52'>U52</a>|[[Empty]](/assets/[Empty].pdf)|Sound EPROM (Upgrade)|Socket|[Picture](/assets/20200620_082127.jpg)|
-|<a name='U53' href='#U53'>U53</a>|[[Empty]](/assets/[Empty].pdf)|Sound EPROM (Upgrade)|Socket|[Picture](/assets/20200620_082127.jpg)|
+|<a name='U53' href='#U53'>U53</a>|[[Empty]](/assets/[Empty].pdf)|Sound EPROM (Upgrade) / Daughter Board Connection|Socket|[Picture](/assets/20200620_082127.jpg)|
 |<a name='U54' href='#U54'>U54</a>|[A00100Z-03](/assets/A00100Z-03.pdf)|Sound EPROM (Stock)|Socket|[Picture](/assets/20200620_082127.jpg)|
-|<a name='U55' href='#U55'>U55</a>|[A00200Z-03](/assets/A00200Z-03.pdf)|Sound EPROM (Stock)|Socket|[Picture](/assets/20200620_082127.jpg)|
+|<a name='U55' href='#U55'>U55</a>|[A00200Z-03](/assets/A00200Z-03.pdf)|Sound EPROM (Stock) / Daughter Board Connection|Socket|[Picture](/assets/20200620_082127.jpg)|
 |<a name='U56' href='#U56'>U56</a>|[[Empty]](/assets/[Empty].pdf)|Sound EPROM (Upgrade)|Socket|[Picture](/assets/20200620_082127.jpg)|
 |<a name='U57' href='#U57'>U57</a>|[[Empty]](/assets/[Empty].pdf)|Sound EPROM (Upgrade)|Socket|[Picture](/assets/20200620_082127.jpg)|
 |<a name='U58' href='#U58'>U58</a>|[A00100X-01](/assets/A00100X-01.pdf)|Sound EPROM (Stock)|Socket|[Picture](/assets/20200620_082127.jpg)|
