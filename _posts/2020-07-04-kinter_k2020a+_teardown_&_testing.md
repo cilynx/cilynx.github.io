@@ -4,7 +4,7 @@ title:  Kinter K2020A+ Teardown & Testing
 date:   2020-07-04 10:04:43 -0700
 tags:   kinter tripath hifi
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jLqJSh1GsVc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pFoA0bbf_ho" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 The board is laid out almost identically to the [Lepai LP-2020A+]({% post_url 2020-06-30-lepai_lp-2020a+_teardown_&_testing %}), however if you look closely at the traces and component positioning/labels, you can see that it was re-laid-out and is not an exact copy.
 
 Power handling is just barely better than the [Lepai LP-2020A+]({% post_url 2020-06-30-lepai_lp-2020a+_teardown_&_testing %}) as well.  The surprising part for me is that this amp actually sounds better -- yes, better than its namesake.  Specifically, it's noticeably more clear / articulate.  Listening to Daft Punk's Solar Sailor, this amp brings through more texture in the eighth-note beat from the beginning and more depth and presence when the ambient tones come in around the 1-minute mark.

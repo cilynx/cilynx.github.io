@@ -4,7 +4,7 @@ title:  Lepy LP-2020A Teardown & Testing
 date:   2020-07-10 07:46:15 -0700
 tags:   lepy hifi
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MOWE2FsZHDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XmKI3ewdxcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 It doesn't take long to realize that this amp is nowhere near as good as its namesake.  To start off with, the product description includes such gems as "Class D is better than Class T"....which is patently impossible considering Class-T is a subset of Class-D.
 

@@ -4,7 +4,7 @@ title:  Lepy LP-2024A+ Teardown & Testing
 date:   2020-07-09 07:46:15 -0700
 tags:   lepy tripath hifi
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/60FsNFW-lU4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/60FsNFW-lU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Considering the model number, I expected this one would have a Tripath [TA2024](/assets/pdfs/Tripath TA2024.pdf), but it turns to have a [TAA2008](/assets/pdfs/Tripath TAA2008.pdf).  Overall, the performance is just barely below the [Lepai LP-2020A+]({% post_url 2020-06-30-lepai_lp-2020a+_teardown_&_testing %}), but honestly it's within the margin of error.
 

@@ -4,7 +4,7 @@ title:  Lepai LP-2020A+ Teardown & Testing
 date:   2020-06-30 16:31:47 -0700
 tags:   lepai hifi tripath
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SQysHRD8FT8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uemuwhnIYU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This is the amp that started the "cheap and tiny but actually hi-fi" amp craze.  Parts Express [claims](https://youtu.be/haBAMl22x88) (through one *very serious* spokesdude, I might add) that they discontinued the model due to the difficulty of acquiring the Tripath chips.  This is a fairly legitimate argument considering Tripath went bankrupt in 2007.  As for durability, I have a three of the original Lepai LP-2020A+ that I picked up back in 2014 that are all still going strong in 2020.  The LED on one has started flaking out, but that's about it.
 

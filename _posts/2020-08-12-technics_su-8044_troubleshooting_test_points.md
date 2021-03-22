@@ -4,7 +4,7 @@ title:  Technics SU-8044 Troubleshooting Test Points
 date:   2020-08-12 18:13:45 -0700
 tags:   hifi technics su-8044
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YeL_e4qqlH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sJiX4Dl11wk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Transistor Parameters
 

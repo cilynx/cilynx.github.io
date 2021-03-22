@@ -4,7 +4,7 @@ title:  Lepy LP-2051 Teardown & Testing
 date:   2020-07-07 07:32:59 -0700
 tags:   lepy hifi tripath
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m5zgj7kRxLU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TQCRaVGwNCE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you're looking for the most powerful of the Tripath mini-amps, this is it.  With the LX-22s, it puts out a full 15dB more volume at 1% THD than the original [Lepai LP-2020A+]({% post_url 2020-06-30-lepai_lp-2020a+_teardown_&_testing %}) and even puts the newer [Kinter K2020A+]({% post_url 2020-07-04-kinter_k2020a+_teardown_&_testing %}) and [Lepai LP-2020TI]({% post_url 2020-07-06-lepai_lp-2020ti_teardown_&_testing %}) to shame.
 
